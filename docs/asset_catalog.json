@@ -1,0 +1,135 @@
+[
+  {
+    "name": "DARKECHI.SBC",
+    "size": 166,
+    "sha1_prefix_4k": "ef32a5d56a299b0bf634b9adc20fb95a26df9546",
+    "ascii_ratio": 0.5542,
+    "starts_with_hex": "54455249412020202020202020202020"
+  },
+  {
+    "name": "DECOMPILE_LOG.md",
+    "size": 4800,
+    "sha1_prefix_4k": "b2ecc8dbe345ea39e9b338676a72133371eb4781",
+    "ascii_ratio": 0.9783,
+    "starts_with_hex": "2320536f726365726572e28099732042"
+  },
+  {
+    "name": "HALLFAME.DAT",
+    "size": 996,
+    "sha1_prefix_4k": "ff2951c48bc323d596fcead6d245e37a87b32465",
+    "ascii_ratio": 0.4076,
+    "starts_with_hex": "54455249412020202020202020202020"
+  },
+  {
+    "name": "HALLFAME.TXT",
+    "size": 453,
+    "sha1_prefix_4k": "c2849d6796d5076ed986e6c03ae25b3af325fe63",
+    "ascii_ratio": 1.0,
+    "starts_with_hex": "20312920544552494120202020202020"
+  },
+  {
+    "name": "ITEMFILE.DAT",
+    "size": 5192,
+    "sha1_prefix_4k": "41eccf9534ebb6ef7ffd0f00cee4bba8a6f5a353",
+    "ascii_ratio": 0.6317,
+    "starts_with_hex": "524550454c4c494e4720444147474552"
+  },
+  {
+    "name": "KITRINA.SBC",
+    "size": 0,
+    "sha1_prefix_4k": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "ascii_ratio": 0.0,
+    "starts_with_hex": ""
+  },
+  {
+    "name": "KITSUNE.SBC",
+    "size": 0,
+    "sha1_prefix_4k": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "ascii_ratio": 0.0,
+    "starts_with_hex": ""
+  },
+  {
+    "name": "MONSTER.DAT",
+    "size": 16856,
+    "sha1_prefix_4k": "d4c02fb22e4e754afd339e82ead21cfb3b2b68e6",
+    "ascii_ratio": 0.7909,
+    "starts_with_hex": "474f424c494e20202020202020202020"
+  },
+  {
+    "name": "monsters.json",
+    "size": 65013,
+    "sha1_prefix_4k": "05fa5d339888f3be1f2ad48a552e67b2be525443",
+    "ascii_ratio": 1.0,
+    "starts_with_hex": "5b0d0a20207b0d0a2020202022696e64"
+  },
+  {
+    "name": "SB.DAT",
+    "size": 76263,
+    "sha1_prefix_4k": "357a28ed73d342c00759b49c10c61536f56c5e00",
+    "ascii_ratio": 0.9998,
+    "starts_with_hex": "41434c45524943414c4c474f4c442020"
+  },
+  {
+    "name": "SB.DOC",
+    "size": 45381,
+    "sha1_prefix_4k": "988ab0be112973bcf779f6182edf4bb7411e1e8a",
+    "ascii_ratio": 0.9989,
+    "starts_with_hex": "2020202020202020202020202020534f"
+  },
+  {
+    "name": "SB.EXE",
+    "size": 290290,
+    "sha1_prefix_4k": "d56eff8ad471f39623a87556ecedd360c30e0e7c",
+    "ascii_ratio": 0.4277,
+    "starts_with_hex": "4d5af20137029d1ac0068100ffff2040"
+  },
+  {
+    "name": "sorcebanedecompile.code-workspace",
+    "size": 43,
+    "sha1_prefix_4k": "a3d1eaef9261b75b7242a4089c5819110eaa8ba7",
+    "ascii_ratio": 1.0,
+    "starts_with_hex": "7b0a0922666f6c64657273223a205b0a"
+  },
+  {
+    "name": "SPELLS.DAT",
+    "size": 1320,
+    "sha1_prefix_4k": "d3845f89be9949df3eaa434d806a7793bb29f5a3",
+    "ascii_ratio": 0.872,
+    "starts_with_hex": "4d41474943204d4953534c4520202020"
+  },
+  {
+    "name": "stdout.txt",
+    "size": 247,
+    "sha1_prefix_4k": "166dea646f1e3a2a28dc7b5fe6a5b6b46195383a",
+    "ascii_ratio": 1.0,
+    "starts_with_hex": "434f4e4649473a4c6f6164696e672073"
+  },
+  {
+    "name": "SYSTEM.SBS",
+    "size": 21,
+    "sha1_prefix_4k": "f2b22a7c0ab5dab73bb5cdc041018e5cd909bbea",
+    "ascii_ratio": 0.1429,
+    "starts_with_hex": "4d0a000a00000000000000c6cfdaa0a3"
+  },
+  {
+    "name": "TERIA.DUN",
+    "size": 28448,
+    "sha1_prefix_4k": "333d381202daead02c388e524caa672e2ae77111",
+    "ascii_ratio": 0.8482,
+    "starts_with_hex": "150006002e2e2e2e2e2e2e2e2e2e2e2e"
+  },
+  {
+    "name": "TERIA.INV",
+    "size": 952,
+    "sha1_prefix_4k": "3fc310f2efa19cc1a3a5c3b785dc767c5b8f9188",
+    "ascii_ratio": 0.4023,
+    "starts_with_hex": "4c41524745204352595354414c4c494e"
+  },
+  {
+    "name": "USER.SBS",
+    "size": 348,
+    "sha1_prefix_4k": "6112da8193c2fab063399ad83b40504c985c32c1",
+    "ascii_ratio": 0.7816,
+    "starts_with_hex": "4441524b454348494c44452020202020"
+  }
+]

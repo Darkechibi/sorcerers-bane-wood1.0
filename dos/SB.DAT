@@ -1,0 +1,951 @@
+ACLERICALLGOLD      T0He looks at you kindly. 'I now really know how badly you want to
+ACLERICALLGOLD      T1contribute.  You don't quite have that much, but I will take what you've
+ACLERICALLGOLD      T1got.  Bless you, my friend.  You have restored my faith in adventurers.'
+ACLERICBADDONATE    T0Although he is the silent type, you can tell you have offended him by your
+ACLERICBADDONATE    T1affrontery. He waves his hands and dissappears. All of a sudden, you don't
+ACLERICBADDONATE    T1feel so good.
+ACLERICCURESICKNESS T0After several minutes of prayer, he passes out from strain. Although
+ACLERICCURESICKNESS T1he looks a little worse for wear, you certainly feel better.
+ACLERICLEREND       H0                                 THE CLERIC
+ACLERICLEREND       T2You enter a dimly lit room containing many books, potions, and magical
+ACLERICLEREND       T1artifacts. Behind the counter, a wizened old man seems to appear from
+ACLERICLEREND       T1nowhere. 'Good day, traveler' he says warmly.  'My name is Lerend.  I
+ACLERICLEREND       T1am the resident cleric What can I do for you?'
+ACLERICNOGOLD       T0As you go for your money, you realize just how poor you are.  Begging his
+ACLERICNOGOLD       T1forgiveness, you walk away.
+ACLERICNOREMOVE     T0After examining your donation, he states that the stars are out of
+ACLERICNOREMOVE     T1cosmic order, the portents tell of dread, and that the next time you fight a
+ACLERICNOREMOVE     T1monster, someone mightly will die.
+ACLERICNOREMOVE     T2You become so wrapped up in his prediction that you fail to notice that
+ACLERICNOREMOVE     T1nothing was removed.
+ACLERICREMOVE       T0You ask the cleric to rid you of the item
+ACLERICREMOVE       T2With almost superhuman strength, undoubtedly enhanced supernaturally, he
+ACLERICREMOVE       T1rips the item from your possession.  noting the tag on the bottom of the item
+ACLERICREMOVE       T1which says 'DISPOSE OF PROPERLY', he throws the item in the trash.
+ACLERICSTAYSICK     T0He diagnoses your sickness, then he diagnoses your donation.  With a
+ACLERICSTAYSICK     T1disappointing look and reproachfullness in his voice, he sadly states
+ACLERICSTAYSICK     T1that he can't help you.
+ACLERICWANDERER     H0                                 THE CLERIC
+ACLERICWANDERER     T2The man who has just approached you is dressed in some type of hooded
+ACLERICWANDERER     T1robe.  You perceive the faint smell of incense as he begins to speak.
+ACLERICWANDERER     T1'Good day, traveler' he says warmly.  'I am a cleric who is intent
+ACLERICWANDERER     T1on furthering the good in this place.  What can I do for you?'
+ASHOPKIERA          H0                                  THE SHOP
+ASHOPKIERA          T2You enter a bright but musty room containing every imaginable weapon, armor,
+ASHOPKIERA          T1or cloak.  Behind the counter, a sultry yet cheerful young woman greets
+ASHOPKIERA          T1you.  'Good day, traveler', she says warmly.  'My name is Kiera.  What can I
+ASHOPKIERA          T1do for you today?'
+ASHOPNOBUY          T0She looks a little dispondent but quickly cheers up. 'You can't blame a
+ASHOPNOBUY          T1girl for trying' she says jovially.  The way she was eyeing your moneysack,
+ASHOPNOBUY          T1you begin to think that you'll be lucky to have any gold left at the end of
+ASHOPNOBUY          T1this shopping excursion.
+ASHOPNOGOLD         T0As you rummage through your moneysack, you sadly realize that you are a
+ASHOPNOGOLD         T1little short on funds.  You give her the puppy dog look that got you
+ASHOPNOGOLD         T1a free beer at the local tavern. 'Hey! I've tried that look before' she
+ASHOPNOGOLD         T1chuckles. 'It really works at the local tavern (but evidently not here).
+ASHOPNOGOLD         T1Come back when you have a little more gold, and maybe we can do business!'
+ASHOPRECHARGE       T0She takes the wand, mumbles a few words that you can't quite hear, and
+ASHOPRECHARGE       T1brings the item back to you.  After assuring you that the item has been
+ASHOPRECHARGE       T1recharged, she hands the item back to you.  You can't help but wonder if
+ASHOPRECHARGE       T1it was worth the trouble, but her disarming smile and light conversation
+ASHOPRECHARGE       T1soon have you thinking of other treasures and adventures.
+ASHOPTRAVELER       H0                                  THE SHOP
+ASHOPTRAVELER       T2The traveler opens her coat.  It contains every imaginable weapon, armor,
+ASHOPTRAVELER       T1or cloak.  The salesperson eyes you with an appraising eye.
+ASHOPTRAVELER       T1'Good day, traveler', she says warmly.  'I am a traveling salesperson.
+ASHOPTRAVELER       T1What can I sell you today?'
+CARD0               T1Now you are totally healed!
+CARD1               T1All of your posessions are stipped from you!
+CARD2               T1You are granted three wishes!
+CARD3               T1All statistics now are raised two!
+CARD4               T1All statistics now are lowered two!
+CARD5               T1Your constitution is doubled (maximum 21)!
+CARD6               T1Your constitution is halved (minimum 1)!
+CARD7               T1Your hitpoints are enhanced!
+CARD8               T1You loose hitpoints!
+CREATEUSER          H              SORCERER'S BANE (v1.1) -- NEW PLAYER INFORMATION
+CREATEUSER          T2Welcome to Sorcerer's Bane (or SB, for short).  SB has been set up at this
+CREATEUSER          T1installation to be multi-user.  This enforces password protection to protect
+CREATEUSER          T1everyone's playing privileges.  Each player has a player name AND password
+CREATEUSER          T1that YOU HAVE TO REMEMBER when playing this game.
+CREATEUSER          T2Some player names are invalid, especially if they use too many special
+CREATEUSER          T1characters (i.e. !@#$%^&*()_-=+.,<>/?, etc.).  This is because the player
+CREATEUSER          T1names are used as part of the multi-user locking system exclusively used by SB.
+CREATEUSER          T2If the name you enter is in use, you will be asked the password.  If you fail
+CREATEUSER          T1to give the proper password, you will be returned to the system.  If the name
+CREATEUSER          T1you enter is not in use, you will be asked if you wish to create it.
+CREATEUSER          T2Please REMEMBER YOUR PLAYER NAME AND PASSWORD!! (Write them down if necessary.)
+CREATEUSER          T1Also, don't create multiple players. Each player can create many characters.
+CREATEUSER          T1Don't make life hard for the SB administrator, for your sake as well as his.
+DECK                T This gambler seems to be more civilized than most gamblers you've seen.
+DECK                B2'Hello, my friend.  I am a stranger to these parts.'
+DECK                T0, he says.  You believe him
+DECK                T1since he's far too civilized to NOT be a stranger to these parts.
+DECK                B2Like you, I sought battle with the evil sorcerer at the bottom of this dungeon.
+DECK                B1I barely escaped with my life, but not before I was cursed to carry the DECK OF
+DECK                B1MANY THINGS around with me.  I am compelled to offer any adventurer who does
+DECK                B1not threaten me as many draws from the deck as he or she would like.'
+DECK                T2He then hesitates as if trying to fight the geas.  Then he continues.
+DECK                B2'Be warned, my friend.  I have seen adventurers rise to great heights by drawing
+DECK                B1from this deck, yet I have also seen their very existance snuffed out.  I
+DECK                B1would advise not drawing, for there are no easy roads to greatness.  However,
+DECK                B1the choice is yours.'
+DECK                H2DO YOU WANT TO DRAW A CARD FROM THE DECK OF MANY THINGS?
+DOSHAREWARE         H                  Copyright 1992 Wood Software Development
+DOSHAREWARE         T2Hi! This is Chuck Wood, the author of Sorcerer's Bane.  I hope you have
+DOSHAREWARE         T1enjoyed playing my game.This game is not free, but is distributed as
+DOSHAREWARE         T1shareware. That means that if you like Sorcerer's Bane, you would pay the 
+DOSHAREWARE         T1reasonable registration fee.  It also means that you are not only allowed but
+DOSHAREWARE         T1but encouraged to make FULL (please!) copies of this product and pass them on
+DOSHAREWARE         T1to others.
+DOSHAREWARE         T2Registration will be its own reward.  For only 19.95, you will not only 
+DOSHAREWARE         T1receive the most up-to-date version of my game, but will also get my "Game
+DOSHAREWARE         T1Master" (GM) set of programs. These will allow you to add items and monsters,
+DOSHAREWARE         T1edit character stats, and resurrect characters from the Hall of Fame list.
+DOSHAREWARE         T2For only $99.95, you receive all of the above PLUS a copy of SB and GM source
+DOSHAREWARE         T1code, a royalty-free version of BASWOOD (with source) which is a BASIC 
+DOSHAREWARE         T1development library that includes keyboard control, mouse control, color 
+DOSHAREWARE         T1control, screen and field entry, and an excellent pull-down menu handler 
+DOSHAREWARE         T1(that is used throughout SB).  Printed documentation for all the software is
+DOSHAREWARE         T1also included.  All code is completely self-contained and written ENTIRELY in
+DOSHAREWARE         T1MICROSOFT(R) QUICKBASIC(TM), so it should be easy to customize.
+DOSHAREWARE         H                  Copyright 1992 Wood Software Development
+DOSHAREWARE         T2Your registration fee entitles you to use all software received on a single
+DOSHAREWARE         T1computer, make as many backups as you wish, and/or transfer all rights to
+DOSHAREWARE         T1the software to another individual.  Although you cannot use the source code
+DOSHAREWARE         T1for SB or GM for distribution without written expressed permission of the 
+DOSHAREWARE         T1holder of the copyright, you can use the BASWOOD utilities to make and
+DOSHAREWARE         T1distribute your own software ALONG WITH the BASWOOD.LIB that will come with
+DOSHAREWARE         T1the 99.95 registration.  Site licenses are also available; call for details.
+DOSHAREWARE         H2WHAT A DEAL!!!
+DOSHAREWARE         T2So don't delay!  Print the registration form, fill it out, and send it in with
+DOSHAREWARE         T1your check or money order today! (No cash please, for my sake as well as yours,
+DOSHAREWARE         T1and all checks must be drawn against U.S. banks.)  Make all checks out for 
+DOSHAREWARE         T1either $19.95 (for the SB regular registration) or 99.95 (for the SB extended
+DOSHAREWARE         T1registration). And by all means, enjoy the game!  Don't forget to eat, sleep,
+DOSHAREWARE         T1and go to work while you are playing.
+DRAGONSLAIR         H                                  DRAGON'S LAIR
+DRAGONSLAIR         T2You have entered a dragon's lair!  Contrary to popular opinion, you don't find
+DRAGONSLAIR         T1any treasure chests or precious items lying around.  However, the whole area
+DRAGONSLAIR         T1smells like smoke, and is at least 20 degrees hotter than on the outside.
+DRAGONSLAIR         T1The owner of the lair then appears and starts advancing on you!  It's bigger
+DRAGONSLAIR         T1than your last date! (Boy, was that a huge one.)  It towers over you and begins
+DRAGONSLAIR         T1to speak.
+DRAGONSLAIR         R2'I am a guardian of the staff.  Procede at your own peril!'
+DRAGONSLAIR         T2Hmmm. This may be just a teensy-weensy bit difficult.
+GAMBLER             T
+GAMBLER             T1The gambler reaches in his cloak and pulls out a deck of cards!
+GAMBLER             B2'Hey buddy!'
+GAMBLER             T0, the gambler intones,
+GAMBLER             B0 'I'm feelin' pretty lucky today.  Tell
+GAMBLER             B1ya what I'm gonna do for ya.  I have this deck, with cards numbered duece
+GAMBLER             B1through ace. What say you and me cut the deck, and wager on what's outcomin'?
+GAMBLER             H9DO YOU WANT TO WAGER WITH THE GAMBLER?
+GAMBLERNOBET        T2Disgruntled with your obvious lack of ability, the gambler leaves.
+GAMBLERNOGOLD       B2'Sorry chum'
+GAMBLERNOGOLD       T0, the gambler scoffs,
+GAMBLERNOGOLD       B0 'I don't lend to deadbeats like yourself. You
+GAMBLERNOGOLD       B1don't have that much money, and bein' the shady character that you are, I
+GAMBLERNOGOLD       B1don't place much value on your marker.  After all, bein' a computer-generated
+GAMBLERNOGOLD       B1construct, my legal rights to youse users is suspect, y'know?  It ain't too
+GAMBLERNOGOLD       B1easy to hire two goons to break your legs neither.'
+GAMBLERLOOSES       B1'Hmph! I loose.'
+GAMBLERLOOSES       T0, the gambler laments as you smile broadly.
+GAMBLERTIES         T1It was a tie!
+GAMBLERTIES         B0 'Nobody wins'
+GAMBLERTIES         T0, the gambler grumbles
+GAMBLERWINS         B1'I win!  BWAA-HA-HA-HA-HA!'
+GAMBLERWINS         T0, the gambler gloats.
+GAMBLERTRY          T1Would you like to try again?
+GETUSER             H                    PLAYER SELECTION
+GETUSER             T2If you have played SB since this systems installation, personal information
+GETUSER             T1(containing system defaults, existing players, etc.) is already on file.  If
+GETUSER             T1you have not, you will need to create a new player (containing system defaults,
+GETUSER             T1existing players, etc.)  If you already have stored your player information,
+GETUSER             T1please DO NOT create a new player.
+GOLDDRAGON          T1'Hmm,' the dragon ponders.  'You certainly seem brave enough.  I suppose
+GOLDDRAGON          T1anyone who tries to talk to a dragon is brave, in a stupid kind of way.
+GOLDDRAGON          T1Very well, I will give you the Gold Quarterstff.'  You quickly take the
+GOLDDRAGON          T1quarterstaff and leave all your gold in return. Miraculously, you escape
+GOLDDRAGON          T1with your life.
+GOLDDRAGON          T2You hear the dragon as you leave.  'Thanks for the gold.  It's my favorite
+GOLDDRAGON          T1color.  Better get some more soon, though, or who will pay Lerend to heal
+GOLDDRAGON          T1you after you've been killed by the wizard.  BWAA-HA-HA-HA-HA.'
+GOLDDRAGON          T2Some monsters sure have a warped sense of humor!
+HELPCHAR            H               CHARACTER MAITENANCE MENU HELP FOR SORCERER'S BANE
+HELPCHAR            H2(C) CREATE A NEW CHARACTER
+HELPCHAR            T1This option lets you design a character suitable for running in
+HELPCHAR            T1Sorcerer's Bane.  You will be able to choose a character's main statistics,
+HELPCHAR            T1race, and class.  You must create a character before using one.
+HELPCHAR            H2(U) USE AN EXISTING CHARACTER
+HELPCHAR            T1This option lets you use a previously created character in Sorcerer's Bane.
+HELPCHAR            T1The character you pick can visit the cleric or the shop or run in the dungeon
+HELPCHAR            H2(C) LIST ALL CHARACTERS
+HELPCHAR            T1This option lists all the characters currently running in Sorcerer's Bane.
+HELPCHAR            H2(A) SHOW A CHARACTER'S ATTRIBUTES
+HELPCHAR            T1This option shows the attributes of an existing character.
+HELPCHAR            H2(F) FIND THE EXPERIENCE FOR A LEVEL
+HELPCHAR            T1This option allows you to find the experience level needed to reach different
+HELPCHAR            T1levels for different classes.
+HELPCHAR            H               CHARACTER MAITENANCE MENU HELP FOR SORCERER'S BANE
+HELPCHAR            H2(K) KILL AN EXISTING CHARACTER
+HELPCHAR            T1This option 'kills' an existing character and releases any disk space this
+HELPCHAR            T1character may be using.
+HELPCHAR            H2(D) CHANGE SYSTEM DEFAULTS
+HELPCHAR            T1This option allows you to change certain defaults in Sorcerer's Bane like sound
+HELPCHAR            T1and graphics.
+HELPCHAR            H2(H) HELP
+HELPCHAR            T1Help prints this summary
+HELPCHAR            H2(I) INTRODUCTION
+HELPCHAR            T1This option reprints the introduction.  A MUST for new users.  This will answer
+HELPCHAR            T1many questions you have about the game.
+HELPCHAR            H2(P) PRINT THE REGISTRATION FORM
+HELPCHAR            T1This option prints the registration form so you can become a registered user.
+HELPCHAR            H2(Q or ESC) QUIT THE GAME
+HELPCHAR            T1As stated, this option quits the game and returns you to DOS
+HELPCLASS           H                      CLASS DESCRIPTION IN SORCERER'S BANE
+HELPCLASS           T1Your class tells what kind of character you are and what powers you have.  The
+HELPCLASS           T1brief description following will describe each class:
+HELPCLASS           H2FIGHTER
+HELPCLASS           T1A fighter is good at fighting.  He does not cast spells or sing songs
+HELPCLASS           T1like a mage or a bard, but he can use magical items.  A fighter should
+HELPCLASS           T1have good strength and dexterity.  Humans and Trolls make good
+HELPCLASS           T1fighters.
+HELPCLASS           H2MAGE
+HELPCLASS           T1A mage, or magician, is the spell-caster.  He can fight, especially
+HELPCLASS           T1when he runs out of spells, but spells are what he usually uses
+HELPCLASS           T1if possible.  A mage should have high intelligence.  Elves, Dwarves,
+HELPCLASS           T1and Gnomes make good mages.
+HELPCLASS           H2BARD
+HELPCLASS           T1A bard fights well, but not as good as a fighter.  He sings songs
+HELPCLASS           T1that aid in fighting or healing.  Songs are different in nature from
+HELPCLASS           T1spells.  Songs usually work slower but are more constant than spells.
+HELPCLASS           T1A bard also never runs out of songs once he learns them.  However, his
+HELPCLASS           T1songs are every bit as powerful as spells, but are fewer in number.
+HELPCLASS           T1Any class can make a good bard.
+HELPCLERIC          H                      OPTIONS USED IN THE CLERIC'S TEMPLE
+HELPCLERIC          H3(C) CURE WOUNDS
+HELPCLERIC          T1This option immediately restores hit points lost in the dungeon.  Hitpoints
+HELPCLERIC          T1also regenerate over time.
+HELPCLERIC          H2(S) HEAL A SICKNESS
+HELPCLERIC          T1This option removes a sickness.  Since sickness makes it difficult to 
+HELPCLERIC          T1automatically regenerate hit points, you probably want rid of it.  Sickness
+HELPCLERIC          T1can also be removed by certain magical items, by a wish, or sometimes at the
+HELPCLERIC          T1fountains found in the dungeon.
+HELPCLERIC          H2(R) REMOVE A CURSED ITEM
+HELPCLERIC          T1If you pick up a cursed item and WEAR or WIELD it before knowing what it is,
+HELPCLERIC          T1you will probably want it removed.  Lerend can do that
+HELPCLERIC          H                      OPTIONS USED IN THE CLERIC'S TEMPLE
+HELPCLERIC          H3(I) INVENTORY MANAGEMENT
+HELPCLERIC          T1This option allows the character to wear, wield, or use any item in his 
+HELPCLERIC          T1inventory, and to perform other inventory-related functions.
+HELPCLERIC          H2(H) HELP 
+HELPCLERIC          T1Help prints this message
+HELPCLERIC          H2(Q OR ESC) RETURN TO MAIN MENU
+HELPCLERIC          T1When you are finished at the cleric's temple, hit 'Q' or 'ESC to return to the
+HELPCLERIC          T1character menu.
+HELPDEFAULTS        H                   DEFAULT OPTIONS IN SORCERER'S BANE 
+HELPDEFAULTS        T2The following options let you choose the system defaults used in Sorcerer's
+HELPDEFAULTS        T1Bane:
+HELPDEFAULTS        H2(C) TURN THE COLOR ON/OFF
+HELPDEFAULTS        T1This allows you to toggle your game to color or monochrome.  Laptop LCD users
+HELPDEFAULTS        T1will probably want the color turned off.
+HELPDEFAULTS        H2(S) TURN THE SOUND (MUSIC) ON/OFF
+HELPDEFAULTS        T1Hey, I know that it's a great theme song and you could listen to it for hours,
+HELPDEFAULTS        T1(I like to call it "Bastardized Beethoven"), but should you be so inclined,
+HELPDEFAULTS        T1you could toggle the music off and on with this option.
+HELPDEFAULTS        H2(E) TURN THE ERROR ALARM ON/OFF
+HELPDEFAULTS        T1Those beeps can get annoying, especailly late at night or on the job.  This
+HELPDEFAULTS        T1option turns off the error beep.
+HELPDEFAULTS        H                   DEFAULT OPTIONS IN SORCERER'S BANE 
+HELPDEFAULTS        T2The following options let you choose the system defaults used in Sorcerer's
+HELPDEFAULTS        T1Bane:
+HELPDEFAULTS        H2(M) TURN THE MOUSE ON/OFF
+HELPDEFAULTS        T1This game works fine with a numeric keypad, or even a 4-key arrow keypad.  It
+HELPDEFAULTS        T1also works with a mouse.  You can turn this option off, especially if you are
+HELPDEFAULTS        T1running this in OS/2 2.0 partial screen. (This hurts my mouse control.)  This
+HELPDEFAULTS        T1option will not display if you do not have a recognizable mouse.
+HELPDEFAULTS        H2(D) TURN THE MOUSE BUTTON DESCRIPTION ON/OFF
+HELPDEFAULTS        T1In SB, the two mouse buttons usually stay pretty consistant.  The left button
+HELPDEFAULTS        T1means ENTER (choose, etc.).  The right button means ESC (Quit, Run, No, etc.).
+HELPDEFAULTS        T1The actual meaning can be displayed if this option is on.
+HELPDEFAULTS        H2(H) HELP
+HELPDEFAULTS        T1Help displays this text.
+HELPDEFAULTS        H2(Q OR ESC) SAVE & GO TO MAIN OR PREVIOUS MENU
+HELPDEFAULTS        T1This option always saves the default information.  It then usually goes back
+HELPDEFAULTS        T1to the previous calling menu UNLESS it is on a new player or when Single user
+HELPDEFAULTS        T1is defined.  It will then go to the MAIN MENU.
+HELPFIGHT           H               MONSTER INTERACTION OPTIONS IN SORCERER'S BANE 
+HELPFIGHT           H2(F) FIGHT
+HELPFIGHT           T1This option tells the character to do one round of fighting with this monster
+HELPFIGHT           H2(K) KILL 
+HELPFIGHT           T1This option tells the character to continue fight to the death with the 
+HELPFIGHT           T1monster.  It is typically used for fighting easy-to-kill creatures. 
+HELPFIGHT           H2(T) TALK 
+HELPFIGHT           T1This option tells the character to try and either reason with this creature
+HELPFIGHT           T1or at least soothe it with gentle talking (i.e. "Nice Doggie").  This will 
+HELPFIGHT           T1always work with good creatures, sometimes work with neutral creatures, and
+HELPFIGHT           T1never work with inherently evil creatures.
+HELPFIGHT           H2(R), (ESC) RUN
+HELPFIGHT           T1This option tells the character to try to get away.
+HELPFIGHT           H2(M) MONSTER INFO
+HELPFIGHT           T1This option tells you about the monster you are facing.  It also compares the
+HELPFIGHT           T1monster's extended attributes with your own.
+HELPFIGHT           H               MONSTER INTERACTION OPTIONS IN SORCERER'S BANE 
+HELPFIGHT           H2(C) CAST 
+HELPFIGHT           T1This option tells a mage to cast a spell.  This will only work with mages.
+HELPFIGHT           H2(S) SING A SONG
+HELPFIGHT           T1This option tells a bard to sing a magical song.  This will only work with 
+HELPFIGHT           T1bards.
+HELPFIGHT           H2(I) INVENTORY MANAGEMENT
+HELPFIGHT           T1This option allows the character to use his inventory.  This always takes one
+HELPFIGHT           T1round, but allows the character to exchange multiple items, or use 1 item.
+HELPFIGHT           H2(W) WISH
+HELPFIGHT           T1This option allows the character to make a wish.  Wishes have to be granted
+HELPFIGHT           T1or found, and this always takes at least one round.
+HELPFIGHT           H2(H) HELP
+HELPFIGHT           T1Help displays this text.
+HELPMAIN            H              CHARACTER MENU HELP FOR SORCERER'S BANE
+HELPMAIN            H2(R) RUN AN EXISTING CHARACTER
+HELPMAIN            T1This option lets you run a previously created character in the dungeon.  Only
+HELPMAIN            T1by running a character initially can you gain gold and experience.
+HELPMAIN            H2(A) SHOW A CHARACTER'S ATTRIBUTES
+HELPMAIN            T1This option shows the attributes of an existing character.
+HELPMAIN            H2(S) HAVE A CHARACTER VISIT THE SHOP
+HELPMAIN            T1This option lets the character visit the shop.  Although you can visit the shop
+HELPMAIN            T1with no money, it won't help you.  To get gold, run in the dungeon.
+HELPMAIN            H2(C) HAVE A CHARACTER VISIT THE CLERIC
+HELPMAIN            T1This option lets the character visit the cleric.  The cleric can heal you and
+HELPMAIN            T1remove cursed items and sickness that you may have acquired in the dungeon.
+HELPMAIN            T1To get gold, run in the dungeon.
+HELPMAIN            H2(W) MAKE A WISH
+HELPMAIN            T1This option allows a character to make a wish.  A character must be granted
+HELPMAIN            T1a wish either in the dungeon or by a magical item before he can make a wish.
+HELPMAIN            T1levels for different classes
+HELPMAIN            H              CHARACTER MENU HELP FOR SORCERER'S BANE
+HELPMAIN            H2(F) FIND THE EXPERIENCE FOR A LEVEL
+HELPMAIN            T1This option allows you to find the experience level needed to reach different
+HELPMAIN            T1levels for different classes.
+HELPMAIN            H2(I) INTRODUCTION
+HELPMAIN            T1This option reprints the introduction.  A MUST for new users.  This will answer
+HELPMAIN            T1many questions you have about the game.
+HELPMAIN            H2(D) CHANGE SYSTEM DEFAULTS
+HELPMAIN            T1This option allows you to change certain defaults in Sorcerer's Bane like sound
+HELPMAIN            T1and color.
+HELPMAIN            H2(P) PRINT THE REGISTRATION FORM
+HELPMAIN            T1This option prints the registration form so you can become a registered user.
+HELPMAIN            H2(H) HELP
+HELPMAIN            T1Help prints this summary
+HELPMAIN            H2(Q or ESC) QUIT THE GAME
+HELPMAIN            T1As stated, this option quits the game and returns you to DOS
+HELPRACE            H                       RACE DESCRIPTION IN SORCERER'S BANE
+HELPRACE            T2Your race should be chosen to reflect what kind of character you wish to be.
+HELPRACE            T1All races except Human affect your statistics, either raising them or lowering
+HELPRACE            T1them as that race relates to the Human race in Sorcerer's Bane.  Please note
+HELPRACE            T1that some of the description might not match up to other adventure games, but
+HELPRACE            T1for various reasons, these are the one's used in Sorcerer's Bane.
+HELPRACE            H2HUMAN
+HELPRACE            T1A human has the traits that all other races are measured by in
+HELPRACE            T1Sorcerer's Bane.  As the second strongest race, Humans make good
+HELPRACE            T1fighters, but can excel in any class.
+HELPRACE            H2TROLL
+HELPRACE            T1A Troll is a creature from the bitter Coldlands. Surviving in such
+HELPRACE            T1a harsh environment has made Trolls a very hardy and strong race,
+HELPRACE            T1while at the same time not doing much for their appearance.  Trolls
+HELPRACE            T1rely on strength, hardiness, and agility to survive.  They are not
+HELPRACE            T1great thinkers.  Like the elves, Trolls scorn luck as unreliable,
+HELPRACE            T1preferring to take matters into their own hands.
+HELPRACE            H                       RACE DESCRIPTION IN SORCERER'S BANE
+HELPRACE            T2Your race should be chosen to reflect what kind of character you wish to be.
+HELPRACE            T1All races except Human affect your statistics, either raising them or lowering
+HELPRACE            T1them as that race relates to the Human race in Sorcerer's Bane.  Please note
+HELPRACE            T1that some of the description might not match up to other adventure games, but
+HELPRACE            T1for various reasons, these are the one's used in Sorcerer's Bane.
+HELPRACE            H2ELF
+HELPRACE            T1An Elf is a creature from the woodlands.  They are considered beautiful
+HELPRACE            T1and magical.  Though not as hardy or strong as a Human, they usually
+HELPRACE            T1are more intelligent and more nimble.  Elves tend to scorn luck as
+HELPRACE            T1unreliable.  Elves make good magicians.
+HELPRACE            H2DWARF
+HELPRACE            T1Dwarves usually live underground.  They are famous for their work with
+HELPRACE            T1metal and mining.  They tend to be somewhat smaller than Humans.  This
+HELPRACE            T1allows them to fit into smaller places, like the mines.  They are not as
+HELPRACE            T1strong as Humans due to their size, but they make up for it with their
+HELPRACE            T1hardiness and agility.  Dwarves tend to be more intelligent than Humans
+HELPRACE            T1due to much self-reflecting. Like the Elves and the Trolls, Dwarves
+HELPRACE            T1scorn luck as a weakling's way out. Dwarves can excell in any class.
+HELPRACE            H                       RACE DESCRIPTION IN SORCERER'S BANE
+HELPRACE            T2Your race should be chosen to reflect what kind of character you wish to be.
+HELPRACE            T1All races except Human affect your statistics, either raising them or lowering
+HELPRACE            T1them as that race relates to the Human race in Sorcerer's Bane.  Please note
+HELPRACE            T1that some of the description might not match up to other adventure games, but
+HELPRACE            T1for various reasons, these are the one's used in Sorcerer's Bane.
+HELPRACE            H2GNOME
+HELPRACE            T1Gnomes share the woodland with the Elves.  They are not as beautiful as
+HELPRACE            T1the Humans and the Elves, due to their short and pudgy stature.  Gnomes
+HELPRACE            T1live in trees and are very close to nature.  They are the weakest of all
+HELPRACE            T1the classes.  They tend to live in milder climates, and are not too
+HELPRACE            T1hardy. Unlike the Elves, Trolls, and Drarves, Gnomes view luck as
+HELPRACE            T1desirable and someone who is lucky as close to nature.  They are nimble
+HELPRACE            T1and have an enlightened outlook on life.  They make very good magicians.
+HELPRUN             H            COMMANDS FOR SORCERER'S BANE WHILE RUNNING A CHARACTER
+HELPRUN             H2MOVEMENT OPTIONS
+HELPRUN             T1(), (8)    - up (north)                   
+HELPRUN             T1(), (2)    - down (south)     
+HELPRUN             T1(->) (4)    - left (west)                  
+HELPRUN             T1() (6)     - right (east)     
+HELPRUN             T1(HOME), (7) - up-left (north-west)
+HELPRUN             T1(END), (1)  - down-left (south-west)
+HELPRUN             T1(PGUP), (9) - up-right (north-east)
+HELPRUN             T1(PGDN), (3) - down-right (south-east)                
+HELPRUN             H2INFORMATION
+HELPRUN             T1(X) - Display a character's extended attributes
+HELPRUN             T1(I) - Inventory management (Wear, wield, or use an item)
+HELPRUN             T1(H) - Help (This screen)
+HELPRUN             H2MISCELLANEOUS
+HELPRUN             T1(W)          - Make a wish (Wishes have to be found or granted.)
+HELPRUN             T1(C)          - Cast a magical spell (mages only)
+HELPRUN             T1(S)          - Sing a magical song (bards only)
+HELPRUN             T1(INS), (0)   - Toggle running mode on/off   
+HELPRUN             T1(Q), (ESC)   - Quit running and return to CHARACTER MAIN MENU
+HELPRUN             H                      MAP KEY/CHARACTER REPRESENTATION
+HELPRUN             T4                      - Upstairs               - Downstairs
+HELPRUN             T3   ë                   - Fountain          —     - Throne
+HELPRUN             T3                      - Trap              $     - Treasure
+HELPRUN             T3   ≥ ƒ ¡ ¬ ⁄ ø Ÿ ¿     - Walls             ∫ Õ   - Doors
+HELPRUN             T3   D                   - Dragon            W     - Wizard
+HELPRUN             T3   ù                   - Player
+HELPSHOP            H                           OPTIONS USED IN THE SHOP
+HELPSHOP            H3(B) BUY AN ITEM
+HELPSHOP            T1This option allows you to buy an item in the shop.  Only non-magical items
+HELPSHOP            T1can be purchased here, although the shop keeper can identify any item.
+HELPSHOP            H2(S) SELL AN ITEM
+HELPSHOP            T1This option allows a character to sell an item that is no longer needed or
+HELPSHOP            T1used.  With the exception of a BAZERKER SWORD, only non-cursed items can be
+HELPSHOP            T1sold.  Also, you cannot sell an item you are wearing or wielding.
+HELPSHOP            H2(K) IDENTIFY AN ITEM
+HELPSHOP            T1Identifying an item allows the shopkeeper to tell you what an item is, whether
+HELPSHOP            T1it is cursed or not, and it gives you the ability to sell the item.
+HELPSHOP            H2(R) RECHARGE A WAND
+HELPSHOP            T1Wand can expend charges over time.  The shopkeeper can recharge a wand.  This
+HELPSHOP            T1will never destroy the wand, but it can actually lessen the charges in a wand,
+HELPSHOP            T1especially a fully-charged one.  As this is the secret art of the shopkeeper
+HELPSHOP            T1and identified items don't tell the number of charges, you never know if it
+HELPSHOP            T1worked or not.  Still, it is a good idea to do on a wand that has been used 
+HELPSHOP            T1with regularity.
+HELPSHOP            H                           OPTIONS USED IN THE SHOP
+HELPSHOP            H3(I) INVENTORY MANAGEMENT
+HELPSHOP            T1This option allows the character to wear, wield, or use any item in his 
+HELPSHOP            T1inventory, and to perform other inventory-related functions.
+HELPSHOP            H2(H) HELP 
+HELPSHOP            T1Help prints this message
+HELPSHOP            H2(Q OR ESC) RETURN TO MAIN MENU
+HELPSHOP            T1When you are finished at the shop, hit 'Q' or 'ESC to return to the
+HELPSHOP            T1character menu.
+HELPSTATS           H                   STATISTIC DESCRIPTION IN SORCERER'S BANE
+HELPSTATS           T2The six main statistics, along with random events, determine how well your
+HELPSTATS           T1character will perform in Sorcerer's Bane.  The following is a description
+HELPSTATS           T1of each one and how each one affects you.  Unlike typical adventure games,
+HELPSTATS           T1each statistic will affect the majority of events in Sorcerer's Bane.  (i.e.
+HELPSTATS           T1a smart fighter will fight better than a stupid one.)
+HELPSTATS           H2STR
+HELPSTATS           T1Strength - Strength describes how physically strong your character is. It
+HELPSTATS           T1           primarily determines how much damage you do once you hit an
+HELPSTATS           T1           opponent, but also affects your hitting ability, your protection
+HELPSTATS           T1           protection and your ability to talk to and purchase from the shop.
+HELPSTATS           H2INT
+HELPSTATS           T1Intelligence - Intelligence mainly affects your ability to use magic,
+HELPSTATS           T1               magical items, and resist magic, and your alertness.  It
+HELPSTATS           T1               also affects your hitting ability, your protection, your
+HELPSTATS           T1               avoiding ability, your ability to run away, and your charm.
+HELPSTATS           H1CON
+HELPSTATS           T1Constitution - Constitution is how well you take a hit.  It determines how
+HELPSTATS           T1               well you can take a punch, along with how many hit points
+HELPSTATS           T1               you receive each time you go up a level.
+HELPSTATS           H                   STATISTIC DESCRIPTION IN SORCERER'S BANE
+HELPSTATS           T2The six main statistics, along with random events, determine how well your
+HELPSTATS           T1character will perform in Sorcerer's Bane.  The following is a description
+HELPSTATS           T1of each one and how each one affects you.  Unlike typical adventure games,
+HELPSTATS           T1each statistic will affect the majority of events in Sorcerer's Bane.  (i.e.
+HELPSTATS           T1a smart fighter will fight better than a stupid one.)
+HELPSTATS           H2DEX
+HELPSTATS           T1Dexterity - Dexterity is how agile you are.  It mainly affects your
+HELPSTATS           T1            ability to hit an opponent, your protection, your ability
+HELPSTATS           T1            to avoid being hit, and your ability to run away.  It also
+HELPSTATS           T1            affects your magical resistance, your avoiding ability, your
+HELPSTATS           T1            ability to use a magical item, and your alertness.
+HELPSTATS           H2CHR
+HELPSTATS           T1Charisma - Charisma is how good you look.  It is the major component of
+HELPSTATS           T1           your charm, which is used when talking to an opponent or buying
+HELPSTATS           T1           from the shop.
+HELPSTATS           H2LCK
+HELPSTATS           T1LUCK - Luck affects EVERY extended attribute, but only affects them minimally.
+HINT1               T1Remember as you adventure to raise your stats some more!
+HINT1               T1You'll always do the best you can when they're all at one and a score!
+HINT2               T1Dying's only temporary; you save to live again!
+HINT2               T1You'll need at least 100 gold and constitution ten!
+HINT3               T1Death is not forever! Sometimes life goes on!
+HINT3               T1Yet CON may wane, hitpoints drain, and all your gold is gone!
+HINT4               T1Pull a Monster Info to see how monster's fight.
+HINT4               T1With special powers not seen you may opt for flight.
+HINT5               T1Oh to end this dreariness; to sleep; perchance to dream;
+HINT5               T1Some monsters are ethereal; some are not what they seem.
+HINT6               T1Dragons are big worms, it's true, and no one likes a worm
+HINT6               T1But try civility with the GOLD or you may expire your term.
+HINT7               T1Not all monsters are so bad; some are really good
+HINT7               T1Don't try to tame a bad one though; they act not like a pet should
+HINT8               T1Some monsters corrupt, petrify, possess; some even try to drown
+HINT8               T1Three is the magic number; don't get caught with your guard down!
+HINT9               T1If you want a magic weapon; Bazerker is the best;
+HINT9               T1But the price you end up paying may make you want the rest!
+HINT10              T1Dispell before you meet big worms or your sure to get a treat!
+HINT10              T1Nothing fills the emptyness like a fireball to eat!
+HINT11              T1Magic rings are nice to have but not at the shop to buy;
+HINT11              T1If you want to leave the shop behind, try the RING OF IDENTIFY
+HINT12              T1Books and potions help a lot to bring the stats to rise
+HINT12              T1What can help can hinder, though, so identify the prize
+HINT13              T1Weapons and armor are removed if there is no curse
+HINT13              T1Lerend gets rid of refuse, but don't forget the purse
+HINT14              T1You look good; I look good; She looks good they say
+HINT14              T1Kiera likes the charm you have and is shows in what you pay
+HINT15              T1Life is bitter; life is sweet; can one even tell?
+HINT15              T1It's most refreshing at the founts but stats can shrink or swell.
+HINT16              T1Have a seat on the throne, old friend, and as we talk in rhyme
+HINT16              T1Good or ill may happen there but only at one time.
+HINT17              T1Haphestus made a sword for you; a fine sword I would say.
+HINT17              T1Bazerker may fight better, but then there's hell to pay!
+HINT18              T1You can wield but one thing; not two nor three nor four;
+HINT18              T1When instruments fly or weapons go sky, they'll wield themselves some more.
+HINT19              T1Be careful of corrosion; it affects all armor and blade
+HINT19              T1Unless magic is involved, your items won't be saved!
+HINT20              T1Cloaks are worn above your mail, but protection seems so light.
+HINT20              T1Yet invisible's more and Elven is four to help you in your fight.
+HINT21              T1Treasure sure is nice but monsters are no fun.
+HINT21              T1Evading boots pick up the pace when it's time to run.
+HINT22              T1Running is a cowards way, and they die a thousand death
+HINT22              T1With forward motion, you're here to stay; only once out of breath
+HINT23              T1Some monsters seem to move so fast; they're faster than the eye.
+HINT23              T1Boots of speed will even things to fight monster on the fly.
+HINT24              T1Tiresias was a man who said that he could see
+HINT24              T1Put on the ring of blindness and you'll be like Mr. T.
+HINT25              T1When speaking of Tiresias, some say that he was blind.
+HINT25              T1A ring of sight to see through walls would be a gift most kind.
+HINT26              T1Can't seem to get the hitpoints up? Is that why Bunky's down?
+HINT26              T1Get a ring of regeneration and turn your life around!
+HINT27              T1Rings of regeneration sure do help the healing.
+HINT27              T1Other rings disitigrate; It's not the finest feeling.
+HINT28              T1Traps are not for the weak of heart; they start to be annoying.
+HINT28              T1One of the finest things to wear is a ring of trap avoiding.
+HINT29              T1Magic is so hard to get; four new spells every three.
+HINT29              T1A ring of enhance magic lets next level's there to see.
+HINT30              T1A ring of enhance magic is used by mages the best.
+HINT30              T1A fighter gets more tool ability and for spells a little rest.
+HINT31              T1A ring of trap generation seems like no attack;
+HINT31              T1Nothing bad will happen until you double back.
+HINT32              T1Feeling kinda low 'cause you don't have spells to do?
+HINT32              T1Wands work well for mages, but for bards and fighters too!
+HINT33              T1Read any good books lately? It's nice to read and discover!
+HINT33              T1Identify tomes for content first and don't judge them by their cover.
+HINT34              T1Some people hate Bazerker; for the price you have to pay
+HINT34              T1But with the sorcerer and the Red, there is no better way!
+HINT35              T1Collect magic items as you go, and if you have the room,
+HINT35              T1Get a ring of dispell magic or prepare to meet thy doom!
+HINT36              T1Where are the amulets in this realm? Only one for those with cares.
+HINT36              T1Equalizer is its name; it's the one the sorcerer wears.
+HINT37              T1Cloaks are worn above your mail, but protection seems so light.
+HINT37              T1Yet invisible's more and Elven is four to help you in your fight.
+HINT38              T1Red is the weakest worm, yet now spells will not light
+HINT38              T1Try regeneration last last last last, and Bazerker in a fight
+HINT39              T1Only with the Red worm now should fights sword to claw.
+HINT39              T1But fighters need a wand with the others when they want to brawl.
+HINT40              T1Resurrection is no fun, but better than being dead.
+HINT40              T1That's why Lycantrhopy, possession, and corruption fill one's mind with dread.
+HINT41              T1Teleporting works in hard times for those who sell or steal.
+HINT41              T1Use magic for the killing blow; it's the last thing that they'll feel.
+HINT42              T1A ring of dispell magic is a nice ring to wear around.
+HINT42              T1But gas spores blowing up in your face might tend to get you down.
+HINT43              T1Luck will help with gambling if you're feeling lucky today.
+HINT43              T1There's no luck with the serious one; many things get in the way.
+HINT44              T1No need to run from dragons; Use bazerker with the RED.
+HINT44              T1Change to Haphestus with the Sorcerer or you'll stay until one's dead!
+HINT45              T1Dreams and bears don't hit too much when monsters are immense;
+HINT45              T1They can, however, attract the blows when fighting does commence;
+HINT46              T1Dispelling magic is a must when large monsters start to balk;
+HINT46              T1But what works for Vampires works for Djinnis when you want to wish or talk.
+HINT47              T1Talk to the Gambler and see what luck he brings.
+HINT47              T1Some really test your trust with a deck of many things.
+HINT48              T1A book is ALWAYS nice if there's a wish to gain;
+HINT48              T1Gold or Djinnis give 'em too but they can blow away your brain.
+HOURSBLOCKED        T A young, scruffy-looking man appears before you.  Although he looks clean,
+HOURSBLOCKED        T1his cloths are wrinkled and he appears to have a couple of days growth on
+HOURSBLOCKED        T1his face.  He is wearing what appear to be blue jeans, a T-shirt, tennis
+HOURSBLOCKED        T1shoes and a baseball cap.  Although definitely not the type to model men's
+HOURSBLOCKED        T1underwear in a department store catalogue, he seems likable enough.
+HOURSBLOCKED        H2'Hi!'
+HOURSBLOCKED        T0, he says casually.
+HOURSBLOCKED        H0'My name is Allyn, and I'm the game master around
+HOURSBLOCKED        H1here, until they can find somebody to replace me.  (It's a dull job, but
+HOURSBLOCKED        H1somebody's gotta do it.)  SB has been blocked out by the SB ADMINISTRATOR
+HOURSBLOCKED        H1for a block of hours.  Hey, don't be sad.  Just dial in when it is available.
+HOURSBLOCKED        H1We'll be glad to play then.
+HOURSBLOCKED        H2Of course, if you had your own copy, you could play when you want.' 
+HOURSBLOCKED        T0, he adds
+HOURSBLOCKED        T1coyly.
+HOURSBLOCKED        T2With that, Allyn disappears. (What a shameless plug, you think.)
+INTRODUCTION        H                                INTRODUCTION
+INTRODUCTION        W2A young, scruffy-looking man appears before you.  Although he looks clean,
+INTRODUCTION        W1his cloths are wrinkled and he appears to have a couple of days growth on
+INTRODUCTION        W1his face.  He is wearing what appear to be blue jeans, a T-shirt, tennis
+INTRODUCTION        W1shoes and a baseball cap.  Although definitely not the type to model men's
+INTRODUCTION        W1underwear in a department store catalogue, he seems likable enough.
+INTRODUCTION        T2Hi!
+INTRODUCTION        W0, he says casually.
+INTRODUCTION        T0My name is Allyn, and I'm the game master around
+INTRODUCTION        T1here.  (Actually, I took this job before I knew that there would actually be
+INTRODUCTION        T1work involved!)
+INTRODUCTION        T2Anyway, welcome to Sorcerer's Bane.  Sorcerer's Bane is a dungeon game of
+INTRODUCTION        T1mystery and intrigue where a character which you define runs through the
+INTRODUCTION        T1Dungeon of Mogadore to face the evil Lodi himself at the bottom of the
+INTRODUCTION        T1dungeon. (Hmmm. I wonder if you're up to it.)
+INTRODUCTION        T2The town of Mogadore was supposed to be the site of a magician's academy of
+INTRODUCTION        T1mammoth proportions.  Two powerful wizards, Lodi and Sabee, were dedicated to
+INTRODUCTION        T1the development of this learning institution.  These wizards developed two
+INTRODUCTION        T1STAFFS OF POWER to aid them in both the development of the academy and for
+INTRODUCTION        T1protection while they were digging through the dungeons of Mogadore.
+INTRODUCTION        H                                INTRODUCTION
+INTRODUCTION        T2Ah, but the best made plans often go awry.  For some 'unknown reason', Lodi
+INTRODUCTION        T1turned evil.  Lodi killed Sabee by taking him by surprise, in the hopes of
+INTRODUCTION        T1combining the near-omnipotent power of the two staffs. (GASP! This is more
+INTRODUCTION        T1thrilling than a Dudley Doright rerun.)
+INTRODUCTION        T2For some OTHER 'unknown reason', Lodi was not able to manipulate Sabee's staff.
+INTRODUCTION        T1Lodi could have destroyed it, I suppose, but with that much magic being
+INTRODUCTION        T1released, Lodi's very existence would be threatened.  He opted for the safe
+INTRODUCTION        T1route, and divided the staff (carefully!) into four quarterstaffs.  He then
+INTRODUCTION        T1tricked, paid, or forced four dragons to guard the four quarterstaffs.
+INTRODUCTION        T2Lodi then barred himself at the bottom of his newly-created dungeon to go over
+INTRODUCTION        T1plans for the evil domination of the entire realm!  He gathered every type of
+INTRODUCTION        T1evil, nasty, and cruel monster to populate the dungeon to stop would-be
+INTRODUCTION        T1adventurers (like yourself) from thwarting his plans.
+INTRODUCTION        T2Your mission, should you choose to acce . . .(Oops. Wrong script!)  Ahem!  What
+INTRODUCTION        T1you need to do is fight your way to the bottom of this dungeon, recover the
+INTRODUCTION        T1parts of the other staff, save the girl, (Oops. No girl. Scratch that last one.)
+INTRODUCTION        T1answer the 'unknown reasons', and save the realm.  (And YOU thought this would
+INTRODUCTION        T1be difficult.)
+INTRODUCTION        H                                INTRODUCTION
+INTRODUCTION        T2Don't descend into the dungeon too quickly.  The monsters get harder to fight
+INTRODUCTION        T1as you descend, and your character must have both the experience and the magic
+INTRODUCTION        T1items needed to fight them.
+INTRODUCTION        T2You will find magic items and gold in the dungeon left by now-dead adventurers.
+INTRODUCTION        T1Magic items need to be either worn or used.  Magic items will not affect your
+INTRODUCTION        T1character until they are implemented.  Not all magic items are good, so be
+INTRODUCTION        T1careful.
+INTRODUCTION        T2Above the dungeon is the town.  You may want to visit some of the stores in
+INTRODUCTION        T1town before going too deep into the dungeon.  In town, you can buy magic items,
+INTRODUCTION        T1get healed, have cursed items removed, identify items, and much more.  However,
+INTRODUCTION        T1all this takes money, so be sure to find some money in the dungeon first.
+INTRODUCTION        T2So create a new character and start adventuring.  Be careful, fight smart and
+INTRODUCTION        T1well, and you may just survive to tell your tale to others.  Oh yes, and don't
+INTRODUCTION        T1forget to print the registration, fill it out, and register.  Good luck, and
+INTRODUCTION        T1Godspeed!
+MULTIUSERINFO       H                            MULTI-USER SETUP
+MULTIUSERINFO       T2Since you have elected the multi-user setup, SB will let you choose several
+MULTIUSERINFO       T1options to control the use of SB on your network or PC.  The following fields
+MULTIUSERINFO       T1can be entered on the multi-user screen.  If you do not wish to enact any or 
+MULTIUSERINFO       T1all of these features, simply leave the field blank.
+MULTIUSERINFO       H2MAXIMUM USERS ALLOWED
+MULTIUSERINFO       T1This is the number of players allowed to use SB at one time.
+MULTIUSERINFO       H2MAX (LIVE) CHARACTERS
+MULTIUSERINFO       T1This is the maximum amount of characters any player can
+MULTIUSERINFO       T1have running concurrently in SB.  Only live characters count.
+MULTIUSERINFO       H                            MULTI-USER SETUP
+MULTIUSERINFO       T2Since you have elected the multi-user setup, SB will let you choose several
+MULTIUSERINFO       T1options to control the use of SB on your network or PC.  The following fields
+MULTIUSERINFO       T1can be entered on the multi-user screen.  If you do not wish to enact any or 
+MULTIUSERINFO       T1all of these features, simply leave the field blank.
+MULTIUSERINFO       H2STARTING BLOCKED HOUR
+MULTIUSERINFO       T1Sometimes a network will be overloaded at specific times during the day
+MULTIUSERINFO       T1so that playing a game would be counter-productive.  (Imagine that!)  Hence, 
+MULTIUSERINFO       T1SB allows the SBA to declare a 'STARTING BLOCK HOUR' (or SBH).  The SBH is the
+MULTIUSERINFO       T1first hour in a block of hours that SB WILL NOT be allowed to be played.  For
+MULTIUSERINFO       T1instance, if you wanted to block SB from 8:00 A.M. to 5:00 P.M., your SBH 
+MULTIUSERINFO       T1would be 8.  If you don't want to limit when SB can be played at all, simply 
+MULTIUSERINFO       T1return through the next question.
+MULTIUSERINFO       H2HOURS BLOCKED
+MULTIUSERINFO       T1HOURS BLOCKED can disallow access to SB during certain time periods.  This 
+MULTIUSERINFO       T1field tells how many hours you want blocked out.
+MULTIUSERINFO       H2MAX MINUTES OF PLAY
+MULTIUSERINFO       T1This field is used to relegate the amount of contiguous time allowed on playing
+MULTIUSERINFO       T1SB.  Again, it is typically for company installations, etc.
+MULTIUSERINFO       H                            MULTI-USER SETUP
+MULTIUSERINFO       T2Since you have elected the multi-user setup, SB will let you choose several
+MULTIUSERINFO       T1options to control the use of SB on your network or PC.  The following fields
+MULTIUSERINFO       T1can be entered on the multi-user screen.  If you do not wish to enact any or 
+MULTIUSERINFO       T1all of these features, simply leave the field blank.
+MULTIUSERINFO       H2SB SYSTEM PASSWORD
+MULTIUSERINFO       T1SB allows you, as the system administrator, to configure a system password.
+MULTIUSERINFO       T1This would allow you to run ANY PLAYER's characters.  This would be useful
+MULTIUSERINFO       T1for answering any questions a user might have OR defining and/or reporting
+MULTIUSERINFO       T1any problems that may occur with the SB.
+MULTIUSERINFO       T2However, a SB password is a two-edged sword.  If you let your SB password
+MULTIUSERINFO       T1get out, it may be possible for any user to reak havok on SB.  This may cause
+MULTIUSERINFO       T1more trouble than it's worth.
+MULTIUSERINFO       T2Often, a SB ADMINISTRATOR will need to enter into a character's area to resolve
+MULTIUSERINFO       T1some conflict or to (hopfully not!!) recreate some bug to be reported.  This
+MULTIUSERINFO       T1password allows the SB ADMINISTRATOR to access any user/player running SB.
+NOMORECHARS         T2Allyn appears before you.  He has a reproachful look in his eye.
+NOMORECHARS         H0  'Now C'MON!'
+NOMORECHARS         T0, he says.
+NOMORECHARS         H1'You cannot create any more characters!!!  The SB ADMINISTRATOR has, in
+NOMORECHARS         H1his or her NEAR INFINITE wisdom, decided to limit the number of characters any
+NOMORECHARS         H1one user can play.  This is to save both system resources AND to make SB a more
+NOMORECHARS         H1manageable game.  Even I can't go against the SBA (and I usually run things
+NOMORECHARS         H1around here).  Play with the character(s) you've got (until they win or die)
+NOMORECHARS         H1and then you can create more.  (That's all we need around here is more
+NOMORECHARS         H1unbridled enthusiasm.  WHEN are these ROOKIES going to leave me alone!!!)
+NOMORECHARS         T2With that, he disappears.  As you leave, you start to mumble about letting your
+NOMORECHARS         H1job affect your personal life.
+NOMOREUSERS         T A young, scruffy-looking man appears before you.  Although he looks clean,
+NOMOREUSERS         T1his cloths are wrinkled and he appears to have a couple of days growth on
+NOMOREUSERS         T1his face.  He is wearing what appear to be blue jeans, a T-shirt, tennis
+NOMOREUSERS         T1shoes and a baseball cap.  Although definitely not the type to model men's
+NOMOREUSERS         T1underwear in a department store catalogue, he seems likable enough.
+NOMOREUSERS         H2'Hi!'
+NOMOREUSERS         T0, he says casually.
+NOMOREUSERS         H0'My name is Allyn, and I'm the game master around
+NOMOREUSERS         H1here, until they can find somebody to replace me.  (It's a dull job, but
+NOMOREUSERS         H1somebody's gotta do it.)  Now, I know you didn't pull this game up to hear any
+NOMOREUSERS         H1"No room at the inn" story, but as it stands, SB cannot handle any more users
+NOMOREUSERS         H1Without the help of the SB ADMINISTRATOR.
+NOMOREUSERS         H2You can either have the SB ADMINISTRATOR reconfigure the system OR buy your
+NOMOREUSERS         H1own copy.'
+NOMOREUSERS         T2With that, Allyn disappears. (What a shameless plug, you think.)
+RESURRECTION        T You seem to float above your body, helplessly drifting to meet your fate.  All
+RESURRECTION        T1of life's little mysteries are about to be answered (just what you wanted, eh?)
+RESURRECTION        T1when all of a sudden, a bright flash encompasses the area.  Allyn, Lerend, and
+RESURRECTION        T1Kiera appear.
+RESURRECTION        H2'Well,'
+RESURRECTION        T0, Allyn says,
+RESURRECTION        H0 'we need this guy pretty bad.  It's our only hope against
+RESURRECTION        H1Lodi.'
+RESURRECTION        G1'Our ONLY hope?'
+RESURRECTION        T0 asks Kiera.
+RESURRECTION        G0 'Gee, things are looking pretty bleak, aren't
+RESURRECTION        G1they?'
+RESURRECTION        W1'Indeed.'
+RESURRECTION        T0 adds Lerend.
+RESURRECTION        W0 'Death tends to hamper adventuring in most cases.'
+RESURRECTION        T1Allyn looks irritated.
+RESURRECTION        H0 'Look, I'm irritated.  If this guy continues to be dead,
+RESURRECTION        H1the worst will happen!'
+RESURRECTION        T1Kiera looks thoughtful.
+RESURRECTION        G0 'Would the worst be that Lodi would usurp your job as a
+RESURRECTION        G1reasonably benevolent game master?'
+RESURRECTION        H1'Nope.  I already offered.  He's not interested.'
+RESURRECTION        W1'There is no excuse for sloth'
+RESURRECTION        T0, Lerend says gravely.
+RESURRECTION        H1'The WORST would be that we have to bring down another GREEN, INEXPERIENCED,
+RESURRECTION        H1LOUSY, GOOD-FOR-NOTHING LOSER like this dead guy.'
+RESURRECTION        T0  You feel indignant.
+RESURRECTION        H0 'Just
+RESURRECTION        H1see what you can do.'
+RESURRECTION        T2With that, Allyn disappears. (Near-omnipotent beings tend to do that.)
+RESURRECTION        T As soon as Allyn leaves, Lerend immediately removes your gold pouch.  Staring
+RESURRECTION        T1down Kiera's icy glare, Lerend feebly responds,
+RESURRECTION        W0 'Any metal will hinder
+RESURRECTION        W1the healing process.'
+RESURRECTION        T0  Kiera just shakes her head as Lerend puts your pouch
+RESURRECTION        T1away "for safe keeping."
+RESURRNOGOLD        T2After examining the contents of the pouch, Lerend begins to look EXTREMELY
+RESURRNOGOLD        T1distracted.  Although he tries to mumble some feeble prayer, you start to feel
+RESURRNOGOLD        T1yourself slipping away.  Your last words you hear are Kiera mumbling to Lerend:
+RESURRNOGOLD        G2'S'allright, Ler.  Ya cure some, ya lose some.'
+RESURRNOCON         T2Lerend places his hands on you and starts to pray.  This seems to go on for
+RESURRNOCON         T1hours until, finally, Lerend starts to sag, sway, sache, and swoon.  You feel
+RESURRNOCON         T1yourself slipping away as the prayer fails and Lerend hits the floor.  The last
+RESURRNOCON         T1thing you hear is Kiera sobbing.
+RESURRNOCON         T2She's probably upset that she didn't think of grabbing your gold pouch first.
+RESURRWORKED        T2Lerend places his hand on you and starts to pray.  After hours and hours of
+RESURRWORKED        T1prayer, you feel yourself being tugged back into your body.  Lerend finally
+RESURRWORKED        T1collapses from the strain.
+RESURRWORKED        T2After a minute or two, Kiera gasps as you start to get up.  She then smiles,
+RESURRWORKED        T1gives your her business card and teleports out. Two acolytes teleport in and
+RESURRWORKED        T1start to give Lerend CPR.  As Lerend starts to recover, you begin to realize
+RESURRWORKED        T1that you feel pretty bad.  Dying sure does take a toll on a person.
+SETUP               H                      SORCERER'S BANE (v1.1) -- SYSTEM SETUP
+SETUP               T2Welcome to Sorcerer's Bane.  It appears you are the first one to run SB on
+SETUP               T1this system, so I will have to ask you a few questions about the way you want
+SETUP               T1SB administered.
+SETUP               H                      SORCERER'S BANE (v1.1) -- SYSTEM SETUP
+SETUP               T2Since you are the first one to run SB on this system, you will have to decide
+SETUP               T1how you want SB administered.
+SETUP               T2You have your choice of whether to set up SB as multi-user or single-user.
+SETUP               T1The following is a guide as to which setup is best for you.
+SETUP               T2A single-user setup is when you are not running over a network and you either
+SETUP               T1are the only one who accesses this game OR you trust the other computer users
+SETUP               T1enough to not worry about password protection.  I would imagine that most of
+SETUP               T1you would pick single-user so as to not mess with passwords and the like.
+SETUP               T2A multi-user setup would configure the game to accept several users at one 
+SETUP               T1time.  This configuration would also be chosen if you several people had 
+SETUP               T1access to this computer AND you did not want them using your characters.  In 
+SETUP               T1the multi-user setup, password protection is enforced.
+SETUPADMIN          H                      SORCERER'S BANE (v1.1) -- SYSTEM SETUP
+SETUPADMIN          T2With great power comes great responsibility.  Because you are the first person
+SETUPADMIN          T1to use this system, you are now the defacto SB ADMINISTRATOR.  This will give
+SETUPADMIN          T1you powers and abilities beyond those of mortal players.
+SETUPADMIN          T2Remember, this is your system, so answer the following questions carefully.  If
+SETUPADMIN          T1you aren't careful, SB may take up a large chunk of your resources or too much
+SETUPADMIN          T1of your prime system hours.  Fortunately for you, SB has been created to allow
+SETUPADMIN          T1the SB ADMINISTARTOR to limit SB usage on multi-user systems.  On the following
+SETUPADMIN          T1screen, you will be asked questions about configuring the SB system.
+SETUPADMIN          H                      SORCERER'S BANE (v1.1) -- SYSTEM SETUP
+SETUPADMIN          T2SB allows you, as the system administrator, to configure a system password.
+SETUPADMIN          T1This would allow you to run ANY PLAYER's characters.  This would be useful
+SETUPADMIN          T1for answering any questions a user might have OR defining and/or reporting
+SETUPADMIN          T1any problems that may occur with the SB.
+SETUPADMIN          T2However, a SB password is a two-edged sword.  If you let your SB password
+SETUPADMIN          T1get out, it may be possible for any user to reak havok on SB.  This may cause
+SETUPADMIN          T1more trouble than it's worth.
+SETUPBLOCK          T1Sometimes a network will be overloaded at specific times during the day
+SETUPBLOCK          T1so that playing a game would be counter-productive.  (Imagine that!)  Hence, SB
+SETUPBLOCK          T1allows the SBA to declare a 'STARTING BLOCK HOUR' (or SBH).  The SBH is the
+SETUPBLOCK          T1first hour in a block of hours that SB WILL NOT be allowed to be played.  For
+SETUPBLOCK          T1instance, if you wanted to block SB from 8:00 A.M. to 5:00 P.M., your SBH would
+SETUPBLOCK          T1be 8.  If you don't want to limit when SB can be played at all, simply return
+SETUPBLOCK          T1through the next question.
+SETUPSAVE           T2If you want to save these options, answer YES.  If you decide not to save
+SETUPSAVE           T1these options, answer NO.  If you answer YES, the only way to change your answer
+SETUPSAVE           T1is to reinstall SB.  If you answer NO, nothing will be saved and you will be
+SETUPSAVE           T1returned to the system.
+SETUPSCOPE          T The following questions allow you to limit the scope of your system.  If you
+SETUPSCOPE          T1want unlimited scope to any of the questions below, leave that question blank.
+SETUPSCOPE          T1(i.e. If you want each player to be able to play as long as he/she wants to,
+SETUPSCOPE          T1simply return through the 'maximum number of minutes' question.)
+SORCERERSLAIR       H                        THE LAIR OF LODI THE SORCERER
+SORCERERSLAIR       T2You have found what may be the culmination of your quest!  You have found the
+SORCERERSLAIR       T1sorcerer's lair!  Around you are potions and every sort of magical artifact.
+SORCERERSLAIR       T1The air smells of chemicals and static electricity.
+SORCERERSLAIR       T2Lodi himself is sitting on a throne at the other end of the room!  The years
+SORCERERSLAIR       T1sure have been rough on him.  Magic looks like it has taken it's toll!
+SORCERERSLAIR       R2'Good day traveler.'
+SORCERERSLAIR       T0, He rasply intones.
+SORCERERSLAIR       R0 'It's as good a day as any to die!'
+SORCERERSLAIR       T2(You guess talking him out of being evil just isn't going to work.)
+SORCERERSLAIR       M2'I'm ready when you are.'  
+SORCERERSLAIR       T0 You confidently intone.  
+SORCERERSLAIR       M0 'One way or another, Lodi,
+SORCERERSLAIR       M1 you're going down today!'
+SORCERERSLAIR       T2You laugh to yourself.  Confidence is easy when you hold Gilcrest, the good
+SORCERERSLAIR       T1staff of power.  You draw Gilcrest out while Lodi draws out Moshannon!  You
+SORCERERSLAIR       T1gulp as Moshannon looks just like Gilcrest!  This may indeed be a long fight!
+SORCERERSLAIR       H                        THE LAIR OF LODI THE SORCERER
+SORCERERSLAIR       T2Just then, to your and Lodi's amazement, the staffs start conversing!
+SORCERERSLAIR       B2'Now is the time, Gilcrest.'
+SORCERERSLAIR       T0 Moshannon speaks with no emotion.
+SORCERERSLAIR       T2(Great.  Another dry monotone boring staff.  You fight the urge to drift off.)
+SORCERERSLAIR       H2'Aye, Moshannon.  Do you wish to involve these others?'
+SORCERERSLAIR       B2'I see no need for that.  Eventually, it always seems to come down to good
+SORCERERSLAIR       B1versus evil.'
+SORCERERSLAIR       T2With that, both staffs fly out and collide.  They both seemed to vanish upon
+SORCERERSLAIR       T1collission, obviously intent on taking their dispute elsewhere.
+SORCERERSLAIR       T2For a brief moment, Lodi and you forget your differences.  Lodi looks stunned.
+SORCERERSLAIR       R2'I didn't know they could talk!' 
+SORCERERSLAIR       T0  He shakenly says.
+SORCERERSLAIR       M2'Maybe it just never had anything to say.'
+SORCERERSLAIR       T0 you chuckle.
+SORCERERSLAIR       T2Lodi is then snapped out of his musing.
+SORCERERSLAIR       R0 'This is all YOUR fault!'
+SORCERERSLAIR       T0 he screeches.
+SORCERERSLAIR       H                        THE LAIR OF LODI THE SORCERER
+SORCERERSLAIR       T2NUTS! You were hoping that losing Moshannon would revert Lodi back to a
+SORCERERSLAIR       T1reasonably benevolent entity.  Evidently absolute power does indeed corrupt
+SORCERERSLAIR       T1absolutely.  A fight may be inevitable.
+SORCERERSLAIR       M2'It seems to me that there is no longer a need for fighting.'
+SORCERERSLAIR       T0 You calmly intone.
+SORCERERSLAIR       R2'Coward!! Today, you die!!!'
+SORCERERSLAIR       T2It seems that fighting is going to be the only way to resolve this meeting.  You
+SORCERERSLAIR       T1both square off for what is quite possibly the fight of your life.
+STAFFOFPOWER        T Ah, finally you have all of the components for the staff of power!  As you
+STAFFOFPOWER        T1finish assembling it, it starts to speak! (Well, not actually speak.  It seems
+STAFFOFPOWER        T1to just think what it wants to say, and those thoughts appear in your brain.
+STAFFOFPOWER        T1Well, not actually appear, but. . . Well, you know what I mean.)
+STAFFOFPOWER        M2'Hello, my name is Gilcrest, and I am one of two STAFFS OF POWER in existence.'
+STAFFOFPOWER        T2Hmmm. Dry and boring, but in a monotone.  Oh well.  Whaddaya want from a piece
+STAFFOFPOWER        T1of wood?  The staff continues:
+STAFFOFPOWER        M2'The other STAFF OF POWER is named "Moshannon".  We were first created by the
+STAFFOFPOWER        M1combined magical talents of both Lodi and Sabee.  So much magic was embued
+STAFFOFPOWER        M1that we are now the most powerful artifacts in the realms.
+STAFFOFPOWER        M2'So much power was instilled in Moshannon and I that we started polarizing
+STAFFOFPOWER        M1the very forces of good and evil.  Good polarized around myself, while evil
+STAFFOFPOWER        M1polarized around Moshannon, thereby making us even more powerful, as well as
+STAFFOFPOWER        M1sentient.
+STAFFOFPOWER        T2(Gasp!  The raw power this artifact must exude must be off the scale!)
+STAFFOFPOWER        M 'Lodi was intially alligned with the forces of good, but continued use of the
+STAFFOFPOWER        M1evil staff, Moshannon, caused him to slowly revert to evil.  After becoming
+STAFFOFPOWER        M1totally corrupt, he killed Sabee.  He then tried to wield both myself and
+STAFFOFPOWER        M1Moshannon, thereby doubling his power.  I then tried to convert him back to
+STAFFOFPOWER        M1being the good wizard he was, but Moshannon prevented this and coerced Lodi
+STAFFOFPOWER        M1into dividing me into four staffs, thereby reducing my power.
+STAFFOFPOWER        M2'You must go down one level to where Lodi is.  I will take care of Moshannon.
+STAFFOFPOWER        M1After that, I will no longer be able to help you.  You must deal with the
+STAFFOFPOWER        M1evil wizard, Lodi, yourself.'
+STAFFOFPOWER        T2Oh is that all!  Only the realm's most powerful magician, and Gilcrest wants
+STAFFOFPOWER        T1you to take him on alone.  You vow to take a desk job when and if you return
+STAFFOFPOWER        T1from this misadventure.
+TIMESUP             H1'Sorry, chum, but play time's over.  The SB administrator has (probably wisely)
+TIMESUP             H1limited the time allowed for the game to be played and YOU (God love ya!) have
+TIMESUP             H1maxed it out.  Probably it's time to get back to work and get on with your life.
+TIMESUP             H2However, if you have no life and your work is meaningless, or time constraints
+TIMESUP             H1serve only to annoy you, you could take desitiny into you own hands and buy your
+TIMESUP             H1own copy!'
+TIMESUP             T2With that, Allyn disappears. (What a shameless plug, you think.)
+WEARWIELD           T Kiera radiantly beams as she quickly takes your gold. (You wonder if you could
+WEARWIELD           T1have gotten it cheaper, but then dismiss the thought.)  'You know,' Kieara
+WEARWIELD           T1says, 'you're all right.  I'm sure you'll be happy with your new item.
+WEARWIELD           T2'You seem like a pretty shrewd adventurer.  There are some who come in here
+WEARWIELD           T1that purchase items but then don't use them, as if carrying the item were
+WEARWIELD           T1enough.' She chuckles.
+WEARWIELD           T2'Remember, you have to WEAR (or WIELD) a weapon, armor, ring, etc., and you
+WEARWIELD           T1have to USE potions, wands, and books to implement them.  To do this, you have
+WEARWIELD           T1to try INVENTORY MANAGEMENT.  You seem smart enough to know this already.'
+WEARWIELD           T2Of course you know this already.  Doesn't everyone?
+WINGAME             H                      YOU HAVE BECOME 'THE SORCERER'S BANE'
+WINGAME             T2Lodi looks at you with a surprised look.  It seems hard for him to believe that
+WINGAME             T1his end is finally here.
+WINGAME             T2As Lodi breaths his last, you can't help but feel sorry for the guy.  He was
+WINGAME             T1truly a victim of fate; first being corrupted then hunted and finally killed.
+WINGAME             T1Sometimes the senselessness of evil infuriates you.  Perhaps if things could
+WINGAME             T1have been different, Lodi would have been a benefit to the realms.
+WINGAME             T2You are snapped out of your reverie as the dungeon around you starts to
+WINGAME             T1collapse!  Lodi's magic must have held the structure together.  With no
+WINGAME             T1where to run, you feel certain death must follow.
+WINGAME             T2All at once, in the midst of the falling rubble, Kiera teleports in.
+WINGAME             G2'Grab my hand NOW!'
+WINGAME             T0 she screams.  As you comply, she telports you and herself
+WINGAME             T1out of the collapsing dungeon!
+WINGAME             H                      YOU HAVE BECOME 'THE SORCERER'S BANE'
+WINGAME             T2You thank Kiera for saving your life.  She teleports out as Allyn teleports in.
+WINGAME             H2'Well, after all of those other adventurers failed, you succeeded.  It's really
+WINGAME             H1a shame.  Lodi used to be a real asset to the realm.'
+WINGAME             M2'There still remains one question to be answered.'
+WINGAME             T0, you say.
+WINGAME             M0  'I am the
+WINGAME             M1Sorcerer's Bane, but you seem much more powerful than I am.  Why couldn't
+WINGAME             M1you have taken Lodi out yourself?  You know, "cut out the middleman"?'
+WINGAME             T2Allyn looks away with a rare sad look in his eye.
+WINGAME             H2'I could have perhaps stopped Lodi and Sabee, but as game master, I must expend
+WINGAME             H1most of my energy on maintaining the balance of good and evil in the realms.
+WINGAME             H1An imbalance would certainly destroy us all except the most pious or most evil.
+WINGAME             H2'The last game master went hopelessly insane. Having all this power, but no way
+WINGAME             H1to use it is certainly maddening at times.
+WINGAME             T2With that, Allyn teleports out.  It's seems strange to you that the most
+WINGAME             T1powerful entity in the realm is probably more a prisoner of his own
+WINGAME             T1responsibility than anything else in the realms.
+WINGAME             H                      YOU HAVE BECOME 'THE SORCERER'S BANE'
+WINGAME             T2At last your mission is done.  You are the true hero of the realms.
+WINGAME             T1You head out for other adventures.  Perhaps more will be coming your way.
+WINGAME             T2Don't forget to register, or at least tell all you friends.  And, if enough
+WINGAME             T1people register, look soon for 'The return of the Sorcerer's Bane:  The 
+WINGAME             T1search for Allyn.'  With more laughs (of the BWAA-HA-HA-HA variety), more
+WINGAME             T1graphics (GASP!  Real Picutures!) and more mindless waste of your computer time.
+WINGAME             T2(Of course, if not enough people register, look soon for me at the unemployment
+WINGAME             T1line.  BWAA-HA-HA-HA!!)

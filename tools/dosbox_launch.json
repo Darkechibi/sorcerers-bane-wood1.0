@@ -1,0 +1,22 @@
+{
+  "_comment": "Edit this file to change how DOSBox-X starts. Paths can use forward slashes.",
+  "dosbox_exe": "D:/bin/D-Fend/dosbox-x/dosbox-x.exe",
+  "working_dir": "dos",
+  "logfile": "sb_trace.log",
+  "drive_letter": "d",
+  "game_dir": "dos",
+  "main_program": "SB.EXE",
+  "cli_debug_flags": [
+    "-log-int21",
+    "-log-fileio",
+    "-console"
+  ],
+  "_cli_debug_flags_help": "From: dosbox-x -helpdebug. -console shows log window on Windows. Set cli_debug_flags to [] to disable.",
+  "extra_set_config": [
+    "log logfile=REPLACE_LOGFILE",
+    "log debuggerrun=normal"
+  ],
+  "_debuggerrun_help": "[log] debuggerrun=normal avoids CPU debugger freezing the game at startup",
+  "optional_commands_comment": "Add extra -c DOS commands here (run before sb.exe). Launcher always runs d: then sb.exe last.",
+  "optional_commands": []
+}

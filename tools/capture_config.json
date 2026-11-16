@@ -1,0 +1,15 @@
+{
+  "_comment": "Edit paths if your game files live elsewhere. game_dir is usually the repo root.",
+  "game_dir": ".",
+  "capture_root": "captures",
+  "file_patterns": [
+    "USER.SBS",
+    "SYSTEM.SBS",
+    "HALLFAME.DAT",
+    "HALLFAME.TXT",
+    "SB.DOC"
+  ],
+  "glob_patterns": ["*.SBC", "*.INV", "*.DUN", "*.SBL"],
+  "optional_dosbox_save_dir": "",
+  "_optional_dosbox_save_dir_help": "If set, e.g. D:\\bin\\D-Fend\\dosbox-x\\save, *.sav slots are copied into each capture under dosbox_saves/"
+}

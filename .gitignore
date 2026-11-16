@@ -1,0 +1,45 @@
+# Build outputs (keep intentional play/sbplay.exe locally if you want; ignore rebuild junk)
+*.o
+*.obj
+*.a
+*.lib
+
+# Player save / settings data (never ship)
+*.SBC
+*.INV
+*.DUN
+*.SBL
+USER.SBS
+SYSTEM.SBS
+HALLFAME.DAT
+HALLFAME.TXT
+LPRINT.TXT
+WRITHALL.SBT
+KILLCHAR.SBC
+HALLLOCK.SBL
+KILLLOCK.SBL
+
+# Test fixtures hold personal save games — keep local only
+tests/fixtures/
+
+# Local scratch / backups
+*.zip
+before change/
+after change/
+captures/
+.cursor/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+LOGCPU.TXT
+stdout.txt
+sb_trace.log
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.tmp
+*~

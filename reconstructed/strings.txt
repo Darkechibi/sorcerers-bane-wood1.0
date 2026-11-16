@@ -1,0 +1,1416 @@
+16B0  ESCAPE
+16BA  ENTER
+16C4  TIMESUP
+16E2  use
+16FE  DISPLAY
+1716  player
+1726  kill
+172E  HELPCHAR
+1740  INTRODUCTION
+175C  That was not a valid choice!  Please re-enter!
+1794  CAST A SPELL
+17A4  You try to cast a spell, but
+17C4  it has no effect. If only you
+17E6  were a mage!
+17F6  You lost concentration! Your
+181E  spell failed!
+1830  Your strength is gone. You die!
+1854  LOSS OF STR
+1864  You've gone brain dead. You die!
+1888  LOSS OF INT
+1898  You wither away and die!
+18B4  LOSS OF CON
+18C4  You trip and kill yourself!
+18E4  LOSS OF DEX
+18F4  You're so ugly, you wish you could
+191A  curl up and die. Your wish has been
+1942  granted.  You curl up and die!
+1964  LOSS OF CHR
+1974  Your luck just ran out. You die!
+1998  LOSS OF LCK
+19A8  Experience?  You don't need no stinkin' experience! You're dead!
+19EC  LOSS OF EXPERIENCE
+1A02  You're too sick to go on.  You die!
+1A2A  SICKNESS
+1A36  You die!
+1A4A  ESCAPE
+1A54  HELPCLERIC
+1A6C  ACLERICSTAYSICK
+1A80  ACLERICCURESICKNESS
+1A9E  ACLERICNOREMOVE
+1AB2  He doesn't understand you.  Please retype.
+1AE0  He thanks you for your donation.
+1B04  He calmly diagnoses your problems with some type of magical artifact. He
+1B50  then asks for a donation.
+1B6E  How much would you like to give
+1B92  ACLERICBADDONATE
+1BA6  (It appears that this cleric is more powerful than your magic items!)
+1BF0  ACLERICNOGOLD
+1C02  ACLERICALLGOLD
+1C14  Lerend
+1C1E  ACLERICLEREND
+1C30  ACLERICWANDERER
+1C44  Choose what you wish to do:
+1C64  (C) Cure wounds
+1C78  (I) Inventory management
+1C94  (S) cure Sickness
+1CAA  (H) Help
+1CB6  (R) Remove a cursed item
+1CD2  (Q or ESC) leave the cleric
+1CF2  NOMORECHARS
+1D02  CREATE A CHARACTER
+1D18  What is the name of the character that you want to create?
+1D56  You must enter a character name.
+1D7A  INV
+1D8A  (R) ROLL AGAIN
+1D9C  (B) BACK 1 ROLL
+1DB0  (S) SAVE ROLL
+1DC2  (Q) QUIT
+1DCE  (H) HELP
+1DDA  HELPSTATS
+1DEE  CREATE A CHARACTER
+1E04  What race do you wish to belong to?
+1E2C  (M) - HUMAN
+1E3C  (E) - ELF
+1E4A  (T) - TROLL
+1E5A  (D) - DWARF
+1E6A  (G) - GNOME
+1E7A  (H) - HELP
+1E88  (Q) - QUIT
+1E96  HELPRACE
+1EA8  HUMAN
+1EB8  ELF  
+1EC8  TROLL
+1ED2  DWARF
+1EE2  GNOME
+1EEC  What was that again?
+1F04  CREATE A CHARACTER
+1F1A  What class do you wish to belong to?
+1F42  (F) - FIGHTER
+1F54  (M) - MAGIC USER
+1F68  (B) - BARD
+1F76  (H) - HELP
+1F84  (Q) - QUIT
+1F92  HELPCLASS
+1FA0  FIGHTER
+1FB0  MAGE   
+1FC0  BARD   
+1FCC  What was that again?
+1FE4  CREATE A CHARACTER
+1FFA  Do you wish to save this character?
+2028  .INV
+2030  CREATE A CHARACTER
+2046  STR INT CON DEX CHR LCK
+2062  === === === === === ===
+207E  FIGHTING
+208A  PROTECTION
+2098  IDENTIFICATION
+20AA  REGENERATION
+20BA  INVISIBILITY
+20CA  TRAP AVOIDANCE
+20DC  EVADING
+20E8  STRENGTH
+20F4  INTELLIGENCE
+2104  CONSTITUTION
+2114  DEXTERITY
+2122  CHARISMA
+212E  STATISTICS
+213C  EXPERIENCE
+214A  WEALTH
+2154  WISHING
+2160  DAMAGE
+216A  SANCTURARY
+2178  TAMING
+2182  DISPELLING
+2190  TELEPORTATION
+21A2  HEALING
+21AE  ITEM REMOVAL
+21BE  TRAP GENERATION
+21D2  SUMMONING
+21E0  MAGIC NULL USER
+21F4  HURT USER
+2202  USER SLEEP
+2210  DESTROY ITEM
+2220  SICKNESS
+222C  BAZERKER
+2238  FLOATING WEAPON
+224C  DESTROY WISHES
+225E  SPELL INCREASE
+2270  DESTROY WISHES
+2282  ENHANCE MUSIC
+2294  FLOATING MUSIC
+22A6  SIGHT FILTERING
+22BA  SONIC/PROTECTION
+22CE  FIRE/PROTECTION
+22E2  COLD/PROTECTION
+22F6  POISON RESIST
+2308  DISEASE RESIST
+231A  LIGHTNING/PROT
+232C  CLEAR MIND
+233A  SIGHT
+2344  SPEED
+234E  LUCK
+2356  SLEEP
+2360  ITEM INFORMATION
+2374  Name:
+237E  Item type:
+238C  Attribute affected:
+23A4  Magical properties:
+23BC  Amount attribute is affected:
+23DE  CURSED
+23E8  NONE
+23F0  MAGICALLY ENHANCED
+2406  *UNKNOWN
+2412  *UNKNOWN
+241E  *UNKNOWN
+242A  *Item needs to be identified first
+2450  CHARACTER MENU
+2462  A young, scruffy-looking man appears before you.  Although he looks clean,
+24B0  his cloths are wrinkled and he appears to have a couple of days growth on
+24FE  his face.  He is wearing what appear to be blue jeans, a T-shirt, tennis 
+254C  shoes and a baseball cap.  Although definitely not the type to model men's
+259A  underwear in a department store catalogue, he seems likable enough.
+25E2  'Hi!' he says casually. 'My name is Allyn, and I'm the dungeon master around
+2632  here, until they can find somebody to replace me.  (It's a dull job, but
+267E  somebody's gotta do it.)  What do you wish to do today?'
+26BA  Choose what you wish to do.
+26DA  CURRENTLY USING 
+26EE  (R) RUN IN THE DUNGEON
+2708  (F) FIND EACH LEVEL'S EXPERIENCE
+272C  (A) ATTRIBUTES/INVENTORY MANAGEMENT
+2754  (I) INTRODUCTION
+2768  (S) VISIT THE SHOP
+277E  (H) HELP
+278A  (C) VISIT THE CLERIC
+27A2  (D) CHANGE SYSTEM DEFAULTS
+27C0  (W) MAKE A WISH
+27D4  (P) PRINT THE REGISTRATION FORM
+27F8  (Q or ESC) SAVE AND RETURN TO MAIN MENU
+2824  MAINTENANCE MENU
+2838  You need to pick a character to run in the game.  This character can already
+2888  exist or can be created.  Please choose what you wish to do:
+28C8  (U) USE AN EXISTING CHARACTER
+28EA  (C) CREATE A NEW CHARACTER
+2908  (L) LIST ALL CHARACTERS
+2924  (A) SHOW SOMEONE'S ATTRIBUTES/INVENTORY
+2950  (F) FIND THE EXPERIENCE FOR A LEVEL
+2978  (K) KILL AN EXISTING CHARACTER
+299A  (D) CHANGE SYSTEM DEFAULTS
+29B8  (H) HELP
+29C4  (I) INTRODUCTION
+29D8  (P) PRINT THE REGISTRATION FORM
+29FC  (Q or ESC) QUIT THE GAME
+2A1C  An Easter Island head falls from the
+2A44  sky. While admiring its beauty, you
+2A6C  can't help thinking how uncomfortable
+2A96  it would be if it landed on you.
+2ABA  Fortunately, you avoid it.
+2AD8  Well, you're about to find out!
+2B00  FALLING ROCK
+2B10  You've been hit for 
+2B28   hitpoints
+2B36  Gas starts seeping up from the ground.
+2B60  As you breath it, all your troubles
+2B88  seem to fade.  You begin to feel
+2BAC  like Dorthy surronded by poppies.
+2BD2  Somehow, you stay awake.
+2BEE  You doze off.
+2C04  Three TROLLS, a STONE GOLEM, two
+2C28  MINOTAURS, four OGRES, and a
+2C48  LAND GIANT ambush you and force
+2C6C  you to read a BOOK OF LIES!
+2C8C  Miraculously, you escape!
+2CAA  You awake with less experience!
+2CD2  While meandering around, a light rain
+2CFC  starts to fall.
+2D10  It glistens off your hands.
+2D34  It glistens off your 
+2D4E  You notice the rain changing your
+2D74  's color!
+2D82  You quickly sheath your 
+2D9E   turns to rust!
+2DB2  Your 
+2DBC  You find yourself stuck in the mire.
+2DE4  After screaming for help, a nymph
+2E0A  appears.  She agrees to help you
+2E2E  for a fee. You feel obligated to agree.
+2E5A  She ends up refusing your money.
+2E7E  Finding no money on you, she leaves
+2EA6  She takes all of your money.
+2ED6  She takes most of your money.
+2EF8  You see a bright light.  A voice in
+2F20  the background becons you to move
+2F46  toward the light.  As you start
+2F6A  to move, the light gets more intense.
+2F94  You stop moving forward.
+2FB0  Now you can't see anything.
+2FD0  You hit a trip wire.  50 darts fire
+2FF8  at you.  The first 23 go to your
+301C  left. The next 19 go to your right.
+3044  7 hit the ground in front of you.
+306A  You dodge the last one.
+3086  The last one hits! It has no effect!
+30B2  The last one hits! You're sick.
+30D6  You find a magnifying glass. Thinking
+3100  it would help you see your map
+3122  better, you hold it over the map.
+3148  As light intensifies, your map ignites!
+3174  You put it out.
+3188  There'll always be other maps.
+31AA  Dark clouds gather as a heavy rain
+31D0  falls.  The rain is foul-smelling.
+31F6  You weather the storm.
+3214  You notice a smoke raising from
+3238  your armor!
+3248  You quickly find shelter.
+3266  Your armor disintigrates!
+3284  Your armor is unaffected! (Whew!)
+32AA  You see an floating orb drifting by. It
+32D6  emits some strange kind of ray.  You
+32FE  feel an internal wrenching and more
+3326  than a little nauseous 
+3342  The feeling seems to pass.
+3360  You wake up in a strange place.
+3384  ESCAPE
+338E  The monster was carrying a pouch!
+33B4  You have found a treasure chest.
+33D8  What do you wish to do?
+33F4  (O) Open it
+3404  (Q) Leave it
+3414  (C) Cast spell
+3426  (I) Inventory management
+344E  That was not a valid choice. Please retype!
+347E  TRAPPED TREASURE CHEST
+3498  It was trapped!
+34AC  You've been damaged for 
+34C8   hitpoints
+34DA  TRAPPED CHEST
+34EC  Fortunately, you sidestepped it!
+351A  gold
+3522  silver
+3530  platinum
+353C  You have found 
+3550   pieces of 
+3560  It's worth 
+3570   gold pieces.
+3582  some 
+358C  an 
+3594  a 
+359A  You have found 
+35AE  Do you wish to pick it up?
+35CC  You load is too heavy to lift it.
+35F2  You pick up the 
+3606  Your RING OF IDENTIFY starts glowing!
+3630  As knowledge is imparted to you,
+3654  You realize that it is a
+3670  CHARACTER CHOICE MENU
+368A  There are no characters created. 
+36B0  Please create one first.
+36CC   Currently in town
+36E2   Adventuring on level 
+36FC  Who do you want to 
+371A  INVENTORY MANAGEMENT
+3732  You have no inventory
+374C  DISPLAY
+3758  W-Wear     U-Use     T-Take off     D-Drop     I-Item Info     Q or ESC-return
+37AA  (Use arrows or mouse to move around, ENTER for menu, or ESC to quit)
+37F2  Which item would you like to 
+3814  (Use arrows or mouse to move around, ENTER to choose, or ESC to quit)
+385E  * - CURRENTLY BEING WORN    
+387E   - CURSED       
+3892   - MAGICALLY ENHANCED
+38B2  ) 
+38B8  You currently possess the STAFF OF POWER!!
+38E6  You currently possess 
+3900   out of 4 parts of the STAFF OF POWER
+392A  DISPLAY
+3936  ITEMFILE.DAT
+3946  You are already wearing this item 
+3972  This item needs to be used in the dungeon, not worn.
+39AA  wield
+39B4  wear
+39BC  You 
+39C4   the 
+39CE  You can only wear one helmet at a time. Take one off first.
+3A0E  You can only wear one shield at a time. Take one off first.
+3A4E  You can only wear two rings at once.  Take one off first.
+3A8C  You must not wield anything while taking a weapon from its sheath
+3AD2  You must not wield anything while taking an instrument from its sheath
+3B1C  You can't wear two sets of gauntlets at one time. Remove one set first.
+3B68  You can only wear one cloak at a time.  Take off the old one first.
+3BB0  You can't wear two pairs of boots at one time. Remove one set first.
+3BF8  You can't wear two suits of armor at one time. Remove one set first.
+3C40  You can't wear two sets of lenses at one time. Remove one set first.
+3C88  This item is not being worn, hence it cannot be taken off
+3CC6  You put the 
+3CD6   back in inventory
+3CEC  Struggle as you might, you cannot dislodge the cursed item.
+3D2C  You drop the item.
+3D42  You cannot drop something you are wearing
+3D70  UNKNOWN KEY WAS HIT
+3D88  You zap with a 
+3D9C  The worn out wand begins to shudder.  After expending its last charge,
+3DE6  the wand crumbles to dust.
+3E04  You CANNOT use a wand while wielding something else!! (Jeez!! All this, and
+3E54  NOW you think you're a juggler, too!  I think you've been adventuring too
+3EA2  long!!!)
+3EAE  You drink a 
+3EBE  You read a 
+3ECE  That item needs to be Worn, not used.
+3EF8  ITEM MENU
+3F06  What do you wish to do with the 
+3F2A  (W) Wear the 
+3F3C  (U) Use the 
+3F4C  (T) Take the 
+3F5E  (D) Drop the 
+3F70  (I) Find out information about the 
+3F98  (Q or ESC) Return to the inventory screen
+3FC6   off
+3FCE  INVALID KEY WAS HIT
+3FE6   cannot visit the cleric until he/she leaves the dungeon!
+4024  Lerend
+402E   cannot visit the shop until he/she leaves the dungeon!
+406A  Kiera
+4074  HELPMAIN
+4080  INTRODUCTION
+4090  ALLYN
+409A  'Look', Allyn says, 'I'm a DM, not a mind reader! Enter a VALID choice!'
+4104  ITEMFILE.DAT
+4114  SPELLS.DAT
+4122  REMOVE
+412C  The item has been removed.  Hit any key to continue.
+4164  ESCAPE
+416E  HELPSHOP
+417A  identify an item
+4194  IDENTIFY
+41A0  It was a 
+41AE  . Hit any key to continue.
+41CC  recharge a wand
+41E0  recharge a wand
+41F4  RECHARGE
+4200  ASHOPRECHARGE
+4212   smiles and says 'I don't understand. What was that?'
+424C  ITEMFILE.DAT
+4264   - 
+426C  'Which item would you like?' she asks nicely
+429C  Sorry, chum, but you don't have enough gold
+42CC  Try as you might, you cannot lift the item. You have to drop something first
+431C  WEARWIELD
+432E  You feel like a fish in a fishbowl as she appears to be appraising you.
+437A  She then gives you another warm smile and says 'For anyone else, I would
+43C6  charge twice this much, but for you it will cost 
+43FC   in gold to 
+440C  .  Do you wish to 
+4422  ASHOPNOBUY
+4430  She smiles as she takes your money.  It seems that you both feel pretty
+447C  good about the deal.
+4494  ASHOPNOGOLD
+44A4  ASHOPKIERA
+44B2  ASHOPTRAVELER
+44C4  Choose what you wish to do:
+44E4  (B) Buy an item
+44F8  (I) Inventory management
+4514  (S) Sell an item
+4528  (H) Help
+4534  (K) identify an item
+454C  (Q or ESC) Quit shopping
+4568  (R) Recharge a wand
+4584  You have no non-cursed identified items to sell
+45B8  'Which item do you want to sell?' she asks nicely
+45EE  You must remove the item before selling it
+461C  She gladly takes the item off of your hands
+464C  CAST A SPELL
+465C  Which spell level do you wish to cast?
+468A  ESCAPE
+4694  Level 
+46A4  Don't cast a spell
+46BA  You have none of those spells left!
+46E2  SPELL NUMBERS FOR SPELL LEVEL 
+4704  Which spell do you wish to cast?
+4728  Don't cast a spell
+4748  FILES ARE IN USE.  COME BACK LATER
+4776  FIGHTER
+4792  BARD   
+47AA  MAGE   
+47D2  You have gone up a level!
+47F0  You have an additional 
+480C   hitpoints!
+481C  You have gone up 
+4832   levels!
+483E  You have gained 
+4852   hitpoints!
+4862  You have gone down a level!
+4882  You have lost 
+4894   hitpoints!
+48A4  You have gone down 
+48BC   levels!
+48C8  You have lost 
+48DA   hitpoints!
+48EA  You've lost too much experience!
+490E  You die
+491A  EXPERIENCE DRAIN
+4996  CREATEUSER
+49A4  PLAYER NAME: 
+49BA  SBC
+49D2  This player already exists
+49F0  What is the player's password?
+4A12  Please reenter your password for verification
+4A44  Your passwords did not match up.  Please reenter it.
+4A7C  FINAL VERIFICATION: Is the above information correct?
+4ABC  INTRODUCTION
+4ACC  NAME  - 
+4AD8  STR - 
+4AE2  RACE/CLASS - 
+4AFA  INT - 
+4B04  LEVEL - 
+4B10  CON - 
+4B1A  HITPOINTS  -    
+4B2E  DEX - 
+4B38  EXPERIENCE - 
+4B4A  CHR - 
+4B54  GOLD       - 
+4B66  LCK - 
+4B70  PET - 
+4B7A  WISH - 
+4B86  DUNGEON LEV - 
+4B98  SICK - 
+4BA4  Magic resist  - 
+4BB8  To hit       - 
+4BCC  Magic tools   - 
+4BE0  To damage    - 
+4BF4  Magic ability - 
+4C08  To avoid dam - 
+4C1C  To charm      - 
+4C30  To withstand - 
+4C44  To avoid trap - 
+4C58  Alertness    - 
+4C6C  To hide       - 
+4C80  SHIELD
+4C8A  HASTE
+4C94  DREAM-WOLF
+4CA2  BLIND
+4CAC  INVISIBLE
+4CBA  NO-TRAP
+4CC6  HALLLOCK.SBL
+4CD6  HALLFAME.DAT
+4CE6  HALLFAME.TXT
+4CF6  SORCERER'S BANE HALL OF FAME
+4D16  NAME                CLASS   LEV
+4D42  ) 
+4D48  ##) && ##  
+4D58   WON THE GAME!!!
+4D6C   WON THE GAME!!!
+4D80   killed on 
+4D90   by a 
+4D9A   killed on ## by a &
+4DB2   currently adventuring in town
+4DD4   currently adventuring in town
+4DF6   currently adventuring on level 
+4E1A   currently adventuring on level 
+4E3E  HALLLOCK.SBL
+4E4E  MAGE   
+4E5A  BARD   
+4E66  You put all of your staffs together to
+4E90  make a STAFF OF POWER!
+4EAA  STAFFOFPOWER
+4EBA  MAGE   
+4EC6  BARD   
+4ED2  You stop singing your song! Hit any key to continue.
+5010  Standard SB Registration with the Game Master program (GM)
+504E  Extended SB Registration with GM, BASWOOD tools, and source
+5096  WOOD SOFTWARE DEVELOPMENT
+50B4  P.O. BOX 50681
+50C6  INDIANAPOLIS, IN 46250
+50E0  317-470-8085
+50F0  Thanks for playing SB.  Don't forget to register and tell your friends about it!
+5144  EXPERIENCE LEVEL MENU
+515E  What class do you wish to find the experience for?
+5194  (F) - FIGHTER
+51A6  (M) - MAGE
+51B4  (B) - BARD
+51C2  (Q) - QUIT
+51DC  FIGHTER
+51EE  MAGE
+51FC  BARD
+5204  INVALID CLASS. PLEASE ENTER A VALID ONE.
+5230  EXPERIENCE NEEDED FOR EACH LEVEL FOR A 
+525C  LEVEL  1 -         0
+5274            LEVEL  2 - 
+528E            LEVEL 
+52A2   - 
+52AA  LEVEL 15 IS THE HIGHEST YOU CAN GO
+52D0  GETUSER
+52DC  Have you played SB at this installation before? 
+5310  NOMOREUSERS
+5320  Who are you?
+5330  You are 
+533C   (at least according to you!)
+535E  What is the your password?
+537C  That was an incorrect password! The program is ending. Hit any key to continue
+53D2  weapon
+53DC  instrument
+53EA  helmet
+53F4  shield
+53FE  armor
+5408  gauntlets
+5416  boots
+5420  cloak
+542A  ring
+5432  wand
+543A  potion
+5444  book
+544C  lenses
+5456  ITEMFILE.DAT
+546E  NO ITEM FILE (ITEMFILE.DAT) PRESENT. GAME TERMINATED
+54AE  MONSTER.DAT
+54C6  NO MONSTER FILE (MONSTER.DAT) PRESENT. GAME TERMINATED
+5500  SPELLS.DAT
+5516  NO SPELLS FILE (SPELLS.DAT) PRESENT. GAME TERMINATED
+554E  SB.DAT
+5558  NO TEXT FILE (SB.DAT) PRESENT. GAME TERMINATED
+558A  SYSTEM.SBS
+55A0  HOURSBLOCKED
+55B4  USER.SBS
+55C6  Single User
+55D6  CHARACTR
+55E2  INTRODUCTION
+55F2  .SBL
+55FA  .SBC
+5602  KILLLOCK.SBL
+5612  .DUN
+561A  .INV
+5622  KILLCHAR.SBC
+5632  KILLCHAR.SBC
+5642  KILLLOCK.SBL
+5652  Standard SB Registration with GAME MASTER
+5680  Extended SB Registration with GAME MASTER,
+56AE      BASWOOD BASIC tools, source code, and manuals
+56E4  WOOD SOFTWARE DEVELOPMENT
+5702  P.O. BOX 50681
+5714  INDIANAPOLIS, IN 46250
+572E  317-470-8085
+573E  STDOUT
+5748  Your registration fee entitles you to use all software received on a single
+5798  computer, make as many backups as you wish, and/or transfer all rights to
+57E6  the software to another individual.  Although you cannot use the source code
+5836  for SB or GM for distribution without written expressed permission of the
+5884  holder of the copyright, you can use the BASWOOD utilities to make and
+58CE  distribute your own software ALONG WITH the BASWOOD.LIB that will come with
+591E  the 99.95 registration.  Site licenses are also available; call for details.
+596E  Check or money order only (No cash please, for my sake as well as yours,
+59BA  and all checks must be drawn against U.S. banks.)  Make all checks out for
+5A08  $19.95 for each SB regular registration and 99.95 for each SB extended
+5A52  registration.  Most corporate P.O.s also accepted.  Allow 6 weeks for
+5A9C  delivery on personal checks.  Money orders and corporate P.O.s allow 1
+5AE6  week for delivery.
+5B08  MONSTER.DAT
+5B18  CHARACTR
+5B24  SETUP
+5B2E  SB SYSTEM SETUP
+5B42  Enter your type of system
+5B60  (S) Single-user (for one computer and no password protection)
+5BA2  (M) Multi-user (for networks or single systems needing password protection)
+5BF2  (Q or ESC) Leave SB
+5C0A  You have elected to install SB in the single-user mode.
+5C46  Is this what you intended to do?
+5C70  B, M, S, Q, or ESC only, please
+5C94  MULTIUSERINFO
+5CA6  CHARACTER ATTRIBUTES
+5CBE  Name  - 
+5CCA  Level      - 
+5CDC  Hitpoints    - 
+5CF0  Race  - 
+5CFC  Experience - 
+5D0E  Wishes       - 
+5D22  Class - 
+5D2E  Gold       - 
+5D40  Sick level   - 
+5D54  Strength  - 
+5D64  Intelligence - 
+5D78  Constitution - 
+5D8C  Dexterity - 
+5D9C  Charisma     - 
+5DB0  Luck         - 
+5DC4  EXTENDED ATTRIBUTES
+5DDC  Hitting ability  - 
+5DF4  Magical ability        - 
+5E12  Ability to hide   - 
+5E2A  Ability to damage- 
+5E42  Magical resistance     - 
+5E60  Alertness         - 
+5E78  Evading ability  - 
+5E90  Magical tool aptitude  - 
+5EAE  Trap avoidance    - 
+5EC6  Fortitude        - 
+5EDE  Ability to charm       - 
+5EFC  Currently in town
+5F12  Adventuring on level 
+5F2C  SPELLS AVAILABLE (CURRENT / MAXIMUM)
+5F54  Level 
+5F5E   spells - 
+5F6C  DISPLAY
+5F78  SING A SONG
+5F88  BARD   
+5F94  You start singing, but it
+5FB2  has no effect. If only you
+5FD0  were a bard!
+5FE0  You start singing a pleasant
+6000  song, but it has no effect.
+6020  You will learn songs of
+603C  power starting at level 3 or
+605C  when wielding an instrument
+607C  HYPOCRITA - The song of healing
+60A0  BAZERKER  - The song of ferocity
+60C4  ASSUAGEO  - The song of soothing
+60E8  DISPELLIA - The song of dispelling
+610E  Do not sing anything
+6126  You are currently not singing
+6148  You are singing the 
+6166  Which song do you wish to sing?
+618A  HALLLOCK.SBL
+619A  HALLFAME.DAT
+61AA  WRITHALL.SBT
+61BA  WRITHALL.SBT
+61D2  HALLFAME.DAT
+61E2  WRITHALL.SBT
+61F2  HALLFAME.DAT
+6202  HALLLOCK.SBL
+6224  (M)enu
+622E  (Q)uit
+6238  (H)elp
+6242  STAY
+6294  That was certainly a waste of magic
+62BC   The monster breaks through your force
+62E6  field!  (I guess they don't make force
+6310  fields like they used to.)
+632E  An invisible wall appears between you
+6358  and the monster.  After trying to get
+6382  through, the monster leaves.
+63A2  The area becomes devoid of all magic
+63CA  that is directed at you (with the
+63F0  exception of your own, of course) AND
+641A  all animation magic! (What a bonus!)
+6442  The monster chuckles as it easily
+6468  shakes off your spell.  'Can you
+648C  believe this guy' it says to itself.
+64B4  He wants ME for a pet.  Whatta maroon.'
+64E0  The monster snarls as it shakes off
+6508  your spell.  Maybe you ought to
+652C  consider your choice in pets!
+654E  Although the good creature is not
+6574  trying to harm you, you try to take
+659C  control of its mind.  It is insulted
+65C4  that you would even think of trying
+65EC  to tame it!
+65FC  The creature cuddles up to you.  You
+6624  give it a doggie biscuit.
+6642  The creature stops fighting you, but
+666A  then wanders off.  It is obviously
+6690  too used to doing things its own way
+66B8  to be anyone's pet
+66CE  As you are about to attack, your
+66F2  staff starts to glow. You are
+6714  appalled that you would even
+6734  THINK of attacking such a noble
+6758  creature. (Of course NOW is the
+677C  perfect time for a new consience.)
+67A2  As you are about to attack, your staff
+67CC  starts to glow.  OH MY GOD! HOW could
+67F6  you even THINK of attacking such a
+681C  weak pathetic creature. (Hmm. You also
+6846  find it odd that such one-sidedness
+686E  never used to bother you at all.)
+6894  The spell begins to work, but then
+68BA  fizzles when it approaches your
+68DE  opponent!
+68EC  The monster dodges your blast!
+690E  The monster starts to get groggy,
+6934  but then shakes it off!
+6950  The monster starts dreaming of
+6972  helpless adventurers to eat.
+6992  You've damaged it for 
+69AC   hitpoints
+69BA  You've killed it!!
+69D0  All your gold is destroyed!
+69F4  You feel richer for the experience!
+6A1C  You feel an internal wrenching.  You
+6A44  appear in strange place.
+6A60  You feel sooo much better.
+6A86  You are hurt for 
+6A9C   hitpoints!
+6AAC  CURSED WAND
+6AC0  It doesn't seem to affect you
+6AE2  All of a sudden, you don't feel so
+6B08  good
+6B10  A flare emits from your wand as
+6B34  is destroyed
+6B44  your 
+6B4E  You have turned invisible!
+6B6C  All the mirrors in the dungeon
+6B8E  breath a sigh of relief.
+6BAA  All the fair young admirers will
+6BCE  certainly be disappointed.
+6BEC  With a bright flash and a puff of
+6C12  smoke, a Djinni appears.
+6C2E  'I am the mighty FLEMBAD! You are
+6C54  granted a wish.' He then disappears.
+6C7C  May no trap befall you (for a
+6C9E  while, anyway)
+6CB0  You see the air solidify in front
+6CD6  of you, forming a floating shield
+6CFC  A ferocious wolf appears at your
+6D20  side. Upon closer inspection, you
+6D46  realize that it's only an illusion.
+6D6E  You feel yourself speed up!
+6D8E  You feel like you could bend
+6DAE  steel with your bear hands!
+6DCE  You feel so much weaker!
+6DEA  Newton? Einstein? Shakespeare?
+6E0C  They seem so childlike now!
+6E2C  Newton? Einstein? Shakespeare?
+6E4E  Who the heck are they?
+6E68  You feel like you could take
+6E88  an extra punch or two!
+6EA2  Your glass jaw starts spreading!
+6EC6  You start to leap like a ballarina!
+6EEE  Have a nice trip!
+6F04  Sometimes, don't you feel that
+6F26  you get better looking each day.
+6F4A  You feel like you've been beaten
+6F6E  with an ugly stick.
+6F86  One thousand rabits sever their
+6FAA  feet in your honor!
+6FC2  Your four-leave clover just lost
+6FE6  a leaf!
+6FF2  You doze off for a while
+700E  You shake off its affects
+702C  You lose 
+703A   experience points
+7050  You gain 
+705E   experience points
+7078  You are too experienced to gain
+709C  from this book. (Time to use the
+70C0  old fashioned way.)
+70D8  All of your statistics go up!  You
+70FE  feel great!
+710E  All of your statistics go down!  You
+7136  feel really lousy!
+714C  You see a fountain before you. Do you
+7176  wish to drink from it? ('Y' or 'N')
+71A4  The water glowed when it hit your
+71CA  The radiation makes you weaker!
+71FA  lips!
+7204  You are too weak already!
+7222  The water was tainted with lithium!
+724A  You now cannot think as clearly!
+7272  (But you are already too stupid
+7296  to realize that!)
+72AC  YECH!  ACID!
+72BC  You are internally damaged!
+72E0  However, compared to some of the junk
+730A  you've ingested, this isn't so bad!
+7332  This tastes like booze, only stronger!
+735C  You begin to stumble!
+737A  Nothing like a good, stiff drink to
+73A2  take your mind off your bad dexterity!
+73CC  MM! Chocolate covered frog broth!
+73F2  You break out in warts!
+7412  The new warts cover the old ones!
+7438  ACH! PHEW! Black cat furball stew!
+745E  If you think this was a bad break,
+7484  just stick around for worse!
+74A8  If it wasn't for bad luck, you'd
+74CC  have no luck at all!
+74E4  MM! Rabbit foot stew!
+74FE  What a lucky find!
+7514  You're already a lucky guy.
+7534  Fine wine!
+7542  Nothing enhances an image more!
+7566  Your image is dashing enough.
+7588  BALLETBREW, the drink of dance stars!
+75B2  You feel more graceful!
+75D2  You are graceful enough.
+75EE  Liquid iron supplements?
+760A  You feel healthier inside!
+762C  What possible good could extra iron
+7654  do for you?
+7664  Mnemonade! You remember more!
+7686  Your intelligence greatly benefits!
+76AE  You seem to know it all already.
+76D2  Spinach juice!
+76E4  You feel stronger now!
+7702  You don't feel any affects.
+7722  MM! Nothing refreshes quite like a
+7748  moutain stream!
+775C  DECK
+7764  CARD0
+776E  CARD1
+7778  CARD2
+7782  CARD3
+778C  CARD4
+7796  CARD5
+77A0  CARD6
+77AA  DECK OF CARDS
+77C0  CARD7
+77CE  CARD8
+77DC  CARD9
+77E6  DECK OF CARDS
+77F8  GAMBLER
+780A  You currently have 
+7822  How much would you like to gamble?
+7848  GAMBLERNOBET
+7858  GAMBLERNOGOLD
+786A  The gambler deftly shuffles the cards.  You end up cutting a 
+78AC  .  The gambler then reshuffles and cuts a 
+78DA  GAMBLERTIES
+78EA  GAMBLERWINS
+78FA  GAMBLERLOOSES
+790C  GAMBLERTRY
+791A   OF SPADES
+7928   OF DIAMONDS
+7938   OF CLUBS
+7946   OF HEARTS
+795C  DUECE
+7966  JACK
+796E  QUEEN
+7978  KING
+7980  ACE
+798C  You can see again
+7A3A  RESURRECTION
+7A4A  RESURRNOGOLD
+7A5A  RESURRNOCON
+7A6A  RESURRWORKED
+7A7A  You've escaped the dungeon! Have fun in town. (Hit any key to continue.)
+7AC6  ESCAPE
+7AD0  MENU
+7AEA  You start running.
+7B00  You slow your pace to a walk.
+7B28  HELPRUN
+7B46  UNKNOWN KEY WAS HIT 
+7B5E  (R) TOGGLE RUN MODE ON/OFF
+7B7C  (X) DISPLAY EXTENDED ATTRIBUTES
+7BA0  (H) HELP
+7BAC  (S) SING A SONG
+7BC0  (C) CAST A SPELL
+7BD4  (W) MAKE A WISH
+7BE8  (I) INVENTORY MAINTENANCE
+7C06  (Q or ESC) CONTINUE RUNNING
+7C26  EXPERIENCE - 
+7C3C  DAMAGING MAGIC ITEM
+7C5C  You see the remnants of an
+7C7A  already-sprung trap.  Ah yes,
+7C9C  you remember it well.
+7CB6  You have found a secret door!
+7CD8  You air shield drops!
+7CF2  You feel yourself slowing down!
+7D1A  Your no-trap protection has worn off!
+7D44  You start to turn visible again!
+7D68  You start to wake up
+7D80  You are sleeping
+7D94  .DUN
+7DA4  You have found some stairs going
+7DC8  up
+7DCE  down
+7DD6  .  Do you wish to take them?
+7DF6  SORCERER'S BANE
+7E0A  You see a throne before you. Do you
+7E32  wish to sit on it? ('Y' or 'N')
+7E56  A Styxian haze surrounds the chair!
+7E7E  You feel it draining you of energy!
+7EA6  You wake with less experience and
+7ECC  hitpoints
+7EDA  As you sit down, a kobold grabs your
+7F02  gold pouch and runs!
+7F1A  Good thing you didn't own anything!
+7F42  An electric shock runs through you!
+7F6A  Your body is permanently damaged!
+7F94  You cut yourself DEEPLY on one of
+7FBA  the rusty springs in the cushion!
+7FE0  You don't feel so good!
+7FFC  (At least you didn't get sick!)
+8020  The local denizens, realizing you are
+804A  not their king, beat you to a bloody
+8072  pulp and take all you own!  (At least
+809C  they let you keep what you have on!)
+80C8  A djinni appears.  Mistaking you for
+80F0  the king, it grants you a wish, then
+8118  disappears in a cloud of smoke!
+813C  A healing mist rises from the
+815E  cushion!  The mist makes you
+817E  feel very good!
+8192  A warm massage runs through you!
+81B6  You body feels that it could take
+81DC  more abuse than before!
+81F8  The local denizens, mistaking you for
+8222  their king, start throwing gold!
+8246  You manage to pick it all up.
+8274  A Mnemonadian haze surrounds the
+8298  chair! You realize things you never
+82C0  knew!
+82D6  Oh sure. No big deal. Go ahead and
+82FC  rest. It's only the entire realm at
+8324  stake. I wouldn't want you miss your
+834C  beauty sleep! (Jeez! All the heroes
+8374  in the world and we get a schmutz!)
+839C  THRONE
+83A6  MAXIMUM USERS ALLOWED:
+83C0  The maximum number of users SB can allocate (Blank or zero for unlimited)
+840E  MAX (LIVE) CHARACTERS:
+8428  The number of live characters each user can have (Blank or zero for unlimited)
+847A  STARTING BLOCKED HOUR:
+8494  The starting hour that SB is blocked on this system (Blank or zero for none)
+84E4  HOURS BLOCKED:
+84F6  The number of hours you wish to block out (Blank or zero for none)
+853C  MAX MINUTES OF PLAY:
+8554  The number of minutes a character can play SB (Blank or zero for unlimited)
+85A4  SB SYSTEM PASSWORD:
+85BC  Enter the SB ADMINISTRATOR'S PASSWORD (Blank for none)
+85F6  Is this the correct system setup?
+861C  SYSTEM SCREEN
+862E  ALLYN
+8638  MAKE A WISH
+8648  You picture what you want in your mind's eye and concentrate REAL hard.
+8694  After a while, Allyn appears in a cloud of smoke!
+86CA  'Look,' he chuckles, 'you can stand there all day with that constipated
+8716  look on your face, but until you have a wish granted to you by some of the
+8764  characters in the dungeon, or by certain magical items, you're just out of
+87B2  luck!'
+87BC  You feel foolish as he disappears.
+87E2  You picture what you want in your mind's eye and concentrate REAL hard.
+882E  After a while a djinni appears in a cloud of smoke!
+8866  'Strange one' the djinni booms. 'Get on with your adventure!  It is
+88AE  obvious that you should leave the deep concentratration to those with
+88F8  intelligence.  You cannot make a wish until one is granted to you by
+8940  one of the dungeon inhabitants or by certain magical items.'
+8980  You feel foolish as he disappears.
+89A6  You picture what you want in your mind's eye and concentrate REAL hard.
+89F2  After a while, Allyn appears in a cloud of smoke!  After a fit of coughing
+8A40  and muttering something about never finding a djinni when you need one, you
+8A90  catch his attention.  After a look of consternation, he finally speaks.
+8ADC  'Now where were we? Oh yes. Ahem! I AM THE MIGHTY ALLYN!' he bellows. 'What
+8B2C  is it you wish?'
+8B40  You picture what you want in your mind's eye and concentrate REAL hard.
+8B8C  After a while a djinni appears in a cloud of smoke! 'Oh mighty one' the
+8BD8  djinni booms. 'What is your wish?'
+8BFE  (S) Raise 1 statistic
+8C18  (M) Magic items
+8C2C  (H) More hitpoints and totally healed
+8C56  (E) More experience
+8C6E  (G) Gold
+8C7A  (P) A dreamwolf to fight with
+8C9C  MONSTER.DAT
+8CAC  (P) A pet 
+8CBA   and a dreamwolf to fight with
+8CDC  (Q) Quit
+8CE8  (K) Kill the monster you are fighting now.
+8D16  (Q) Quit
+8D22  You have too many hitpoints already to add any more, but now you're
+8D6A  totally restored, anyway!
+8D88  You have gained 
+8D9C   experience points and are totally healed!
+8DD0  You are too experienced already to wish for more!
+8E06  You have gained 
+8E1A   experience points!
+8E38  A HUGE gold bar appears before you. Unfortunately, you cannot carry more.
+8E86  A gold bar worth 
+8E9C  appears before you. You pick it up.
+8ED4  The battle seems rather one sided as the djinni rips the 
+8F12  to shreads
+8F20  After a fierce and drawn-out battle, the djinni rips the 
+8F5E  to shreads
+8F6C  After a quick examination of your opponent, the djinni runs in terror!
+8FB6  I don't understand. Please retype
+8FDC  RAISE A STATISTIC
+8FF2  Which statistic would you like to raise?
+901E  (S) Strength
+902E  (I) Intelligence
+9042  (C) Constitution
+9056  (D) Dexterity
+9068  (R) Charisma
+9078  (L) Luck
+9084  (Q) Quit
+9090  Your strength is at maximum!
+90B0  You feel MUCH stronger now!
+90D0  You feel stronger now!
+90EA  Your intelligence is at maximum!
+910E  You feel MUCH more intelligent now!
+9136  You feel more intelligent now!
+9158  Your constitution is at maximum!
+917C  You feel MUCH sturdier now!
+919C  You feel sturdier now!
+91B6  Your dexterity is at maximum!
+91D8  You feel MUCH more graceful now!
+91FC  You feel more graceful now!
+921C  Your charisma is at maximum!
+923C  You feel MUCH more beautiful now!
+9262  You feel more beautiful now!
+9288  Your luck is at maximum!
+92A4  You feel MUCH luckier now!
+92C2  You feel luckier now!
+92DC  What was that again?
+92F4  WISH FOR A MAGIC ITEM
+930E  You are carrying too much inventory.  Drop something first.
+934E  You may choose an item.  Which item do you want? 
+9384  (Use the arrow keys to select, ENTER to choose, Q to quit.)
+93C4  ITEMFILE.DAT
+93DC  You load is too heavy to lift it.
+9402  You pick up the 
+9420  CHARACTER/MONSTER MATCH UP
+943E  Throughout your earlier travels and conversations, you can recall certain
+948C  characteristics of the being that now faces you.
+94C0  Level
+94CA  Ability to hit
+94DC  Magic resistance
+94F0  To damage
+94FE  To avoid dam
+950E  Speed
+9518  Minimum hitpoints
+952E  Maximum hitpoints
+9544  Ability to run
+9556  Ability to stop your running
+9576  DRAGONSLAIR
+9586  RED DRAGON
+9594  A red dragon is the weakest of all dragons, but it still packs a wallop
+95E0  in a fight. For some reason, no mage has ever survived a fight with one.
+962C  GOLD DRAGON
+963C  A gold dragon is a very tough monster, even for a dragon!  Probably, it is
+968A  the most reasonable of all dragons, but for a dragon, that's not saying much.
+96DC  WHITE DRAGON
+96EC  A white dragon is a dragon from the bitter arctic.  It has powers over cold,
+973C  and a cold heart to match.  Be careful around this one.
+9778  PHASE DRAGON
+9788  A phase dragon is a dragon from the outer planes.  Be careful with this one.
+97D8  Phase dragons are the toughest of all dragons!
+980A  It
+9810  He
+9816  She
+981E  it
+9824  him
+982C  her
+9834  You feel much better now.
+985A  You encounter a 
+986E  Round 
+987C  You are incapacitated!
+9896  You start to move again!
+98B6  It appears that Gilcrest is blocking your BAZERKER curse!
+98F4  What do you wish to do?
+9916  ENTER
+9920  RUN
+993E  HELPFIGHT
+996A  As you are about to attack, your staff starts to glow.  You are appalled
+99B6  that you would even THINK of attacking such a noble creature.  (Of course
+9A04  NOW is the perfect time for an attack of consience.)
+9A3C  As you are about to attack, your staff starts to glow.  OH MY GOD! HOW
+9A86  could you even THINK of attacking such a weak and pathetic creature.
+9ACE  (Hmmm. You also find it odd that such one-sidedness never used to bother you
+9B1E  at all.)
+9B30  It's too late for talking!
+9B54  Unknown key was hit.  Hit 'H' for help.
+9B80  Lightning bolts shoot out of your STAFF OF POWER and damages the monster
+9BD4   hitpoints!
+9BE4  for 
+9BEC  The monster swipes at your DREAMWOLF
+9C14  As the blades passes through the wolf, the monster realizes that since wolves
+9C66  can't phase, this must be an illusion! As the illusion is discovered, it 
+9CB4  fades away.  No more DREAMWOLF!
+9CD8  The wolf seems to phase as the strike passes through it.  The monster looks
+9D28  more than a little shaken and backs off!
+9D54   was really a SPORE CLOUD.  It exploded when you hit it!
+9D90  You have been damaged for 
+9DAE   hitpoints!
+9DBE  You've killed 
+9DD0  !!
+9E2E  NAME - 
+9E3A  HITPOINTS - 
+9E50  MONSTER YOU ARE CURRENTLY FIGHTING - 
+9E7A  (F) Fight
+9E88  (K) Kill
+9E94  (T) Talk
+9EA0  (R) Run
+9EAC  (M) Monster info
+9EC0  (C) Cast
+9ECC  (S) Sing
+9ED8  (I) Inventory
+9EEA  (W) Wish
+9EF6  (H) Help
+9F02  The monster phases as you hit 
+9F28  As you miss, you realize that you need a magic weapon to hit this one!
+9F72  You hit 
+9F7E   hitpoints. It's good that you have some magical artifacts!
+9FBE   for 
+9FC8  You hit 
+9FD4   hitpoints!
+9FE4  You missed.
+9FF4  Your blow glanced off the monster.
+A01A   hit your 
+A028   hitpoints!
+A038   has died!
+A046  Your 
+A050  The blow glanced off your 
+A074   missed your 
+A086  Round 
+A090  Your boots won't let you run!
+A0B2  You run as fast as your feet will take you!  You get away!
+A0F0  'Come back, you sniveling coward!' You will live to fight another day!
+A13A  A brave man dies but once, but once is enough! You escape with your life!
+A188  You cannot get away!
+A1A0  You pick up the red quarterstaff
+A1C4  You pick up the black quarterstaff
+A1EA  You pick up the white quarterstaff
+A21C  Having enough, the monster teleports away!
+A24A  You've killed 
+A25C   then resurrected!
+A272  . 
+A278   stabbed
+A28C   tail-stung
+A2A8   bit
+A2B0   clawed
+A2C0   hit
+A2C8   casts PRISIMATIC SPHERES at you!  They start crushing you!
+A310   casts a FIREBALL at you!  You get singed!!
+A344   casts a HASTE SPELL on itself! 
+A368   starts to speed up!
+A380   casts a SLEEP SPELL at you!  You start to doze off!
+A3B8   casts a MIND WRENCH at you!  You clasp your ears in pain!
+A3FE   casts AIR CONSTRICTION!  You turn blue as you lungs start to hurt!
+A446   casts a MAGIC MISSILE at you!
+A468   draws a weapon! (At least no more spells!)
+A498  Its spell goes awry! (Doesn't that make you feel better?)
+A4D6  Its spell approaches you, then fizzles. (Thank God for small favors!)
+A524  The spell hurt you for 
+A540   hitpoints!
+A550   you for 
+A55E   hitpoints!
+A56E  The blow glanced off you!
+A58C  You dodge the blow!
+A5A4  GOLDDRAGON
+A5B2   was impressed with your courage, tact, and eloquence. 
+A5EE  has granted,
+A5FE  you a wish!
+A60E  Alas, your weak, pathetic mind was not able to handle all of the magical
+A65A  energy.  In trying (in vain) to handle all of the magical energy, you have
+A6A8  lost 1 intelligence and have lost 
+A6CE   hitpoints!
+A6DE  The cleric
+A6EC  The salesperson
+A704  HINT
+A70C  The creature starts to speak!
+A72E  With that the creature leaves you.  Of course, this all seems perfectly normal
+A780  to you.  (Creatures always act like that, don't they?)
+A7BA  This creature will sleep for a while!
+A7E4  This creature starts to awaken!
+A808  This creature is still sleeping!
+A82C  Lightning shoots our from its STAFF!
+A854  Somehow, the magical bolt gets through all of your defenses! (Gasp!)
+A89C  You are shocked for 
+A8B4   hitpoints!
+A8C4  The creature screaches a high-pitched SONIC SCREAM!  Although you hear it,
+A916  it doesn't seem to affect you.  You are NOT impressed.
+A950  You clutch your ears as the creature emits a high - pitched SONIC SCREAM!
+A99E  Your brain is pierced for 
+A9BC   hitpoints!
+A9CC   casts a sickness spell!
+A9E8  The spell approaches you, then fizzles.
+AA14  You don't feel so good!
+AA30   looks deeply into your eyes and tries to paralyze you!
+AA6C  You see the pupil, the iris, and several rods and cones.
+AAA8   looks deeply into your eyes.  You're paralyzed!
+AADC  The monster wanders off
+AAF8   sends an ice cone your way!  You fight the near-overpowering urge to start
+AB4C  building a snowman.
+AB64   sends an ice cone your way!  You are frozen for 
+AB9A   hitpoints!
+ABAA   tries to come over to his side!  His persuasion is magically overwelming!
+ABF8  Still, you have to laugh. 'Come over to YOUR SIDE?  BWAA-HA-HA-HA-HA'
+AC42  You begin to see the monster's point of view!
+AC74  You become the monster's willing slave!  It looks like the mission is over for you!
+ACCC  (So is your life!!!)
+ACE4   rolls a ball of lightning your way!
+AD10  You get a charge out of it.  (Get it?  BWAA-HA-HA-HA-HA)
+AD4C  Lightning doesn't seem to affect you.
+AD76   rolls a ball of lightning your way. You are shocked for 
+ADB4   hitpoints!
+ADC4   emits a stream of fire!  (And YOU forgot the marshmallows!)
+AE08   emits a stream of fire!  You are burned for 
+AE3A   hitpoints!
+AE4A   stares at you with a stony glance!
+AE72  You've seen ugly in your time, but this is UGLY! (Kinda reminds you of your
+AEC2  last date. BWAA-HA-HA-HA)
+AEE0  You stiffen up!
+AEF4  You turn completely to stone!
+AF16  This monster is diseased!
+AF34  Just thinking about this filthy monster fills you with disgust.
+AF78  You don't feel so good!
+AF94   drains your energy!
+AFAC  After finishing with you, the creature leaves you!  You feel a little
+AFF6  worse off than before.
+B010   grabs your money pouch and runs! Now you have no more gold!
+B050   tries to take your items!
+B06E  Finding nothing, the monster leaves.
+B096  The monster takes your 
+B0B2   touches your 
+B0C4   corrodes the item!
+B0DC  Hmm.  Nothing seems to happen.
+B0FE   tries to drown you!
+B116  Its harder to breath!
+B130  You run out of air!
+B148  You've been hit with sleeping poison!
+B172  Strangely enough, you don't feel any effects.
+B1A4  You doze off!
+B1B6  You've been hit with strong sickness poison!
+B1E6  Strangely enough, you don't feel any effects.
+B218  It makes you sick!
+B22E   tries to enter you and bend you to its will!
+B260  You easily shrug it off.
+B27C  You BARELY fight it off!
+B298  The monster's will becomes your own.  Your identity is lost forever!
+B2E0  Your life is gone (and so is your game!)
+B30C  The monster has lycanthopy, and tries to give you the disease!
+B34E  It doesn't affect you (as you breath a sigh of relief).
+B38A  You feel strange, and you start identifying with the monster!
+B3CC  As lycanthropy consumes you, you become a 
+B3FA  You game, and your life, are over.
+B420   teleports away!
+B434  The monster phases as your 
+B454   hits 
+B45E  As your 
+B46A  's blow bounces off, you realize 
+B490  that a magic weapon is needed to hit this monster
+B4C6   hits 
+B4D0   hitpoints!
+B4E0   missed.
+B4EC  's blow glanced off the monster.
+B510  The monster slowly starts fading away. The fiercesome beast was only
+B558  an illusion after all.  (It sure looked and fought real, though.)
+B59E  The monster writhes in pain as the magic that animated 
+B5DA   is voided out!
+B5EE   turns to dust on the floor!
+B60E  SORCERERSLAIR
+B620  SORCERERNOSTAFF
+B634  SORCERERAGAIN
+B646  LODI THE SORCERER
+B65C  This is it. The sorcerer is the most powerful entity in the entire dungeon.
+B6AC  Good luck against this one, because you'll need it!
+B6E8  WINGAME
+B6F4  'I come in peace!' you shout to the monster.  'That's really rich' the 
+B740  creature chuckles.  'The bleeding heart wants to talk.' 
+B77C   then takes a
+B78E  swipe at you! There's just no talking to some monsters!
+B7CA  You speak to the monster in a soothing voice.  The monster growls back in a
+B81A  harsh voice, while trying to bite you. 
+B846   doesn't seem to understand you, nor
+B86E  would care what you have to say.
+B892  You put your hand out to the creature in a sign of friendship. The creature
+B8E2  then cuddles up to you as you start to pet 
+B912  . After a while, you both go
+B932  your separate ways.
+B94A  'Look,' you say. 'You don't want to kill me, and I really don't
+B98E  want to die. Why don't we just go our own ways?' The creature thinks
+B9D6  but then replies 'Nah. What's in it for me?'
+BA06  There are a couple tense moments as you speak soothingly to the
+BA4A  creature. Then as your eyes lock, a special bond develops as the
+BA8E  creature almost seems to understand you. You both go your own ways.
+BAD6  You speak soothingly to the animal, but to no avail!  As the monster
+BB1E  maintains the attack, you realize how hard dungeon life must be to
+BB64  turn a nice animal into such a beast. You vow to pay the sorcerer back.
+BBB4  NO 
+BBBC  YES
+BBC8  DEFAULTS IN 
+BBD8  Current setup
+BBEA  Color:
+BBF4  Sound (music):
+BC06  Error Alarm:
+BC16  Mouse:
+BC20  Mouse description:
+BC36  Setup menu options
+BC4C  (C) Turn the color off
+BC66  (C) Turn the color on 
+BC80  (S) Turn the sound (music) off
+BCA2  (S) Turn the sound (music) on 
+BCC4  (E) Turn the error alarm off
+BCE4  (E) Turn the error alarm on 
+BD04  (M) Turn the mouse off
+BD1E  (M) Turn the mouse on 
+BD38  (D) Turn the mouse button description off
+BD66  (D) Turn the mouse button description on 
+BD94  (H) Help 
+BDA2  (Q or ESC) Save and go to the Main or previous Menu
+BDE6  HELPDEFAULTS
+BE14  An unknown key was hit
+BE2E  SB.DAT
+BE3C    
+BE6C  not found.  Hit any key to continue
+BED6  Unknown key was hit
+BF0E  Invalid key was hit
+BF26  NUMBER MUST BE BETWEEN 
+BF42   AND 
+BF4C  Hit any key to continue
+BF6E  LEFT MOUSE BUTTON IS 
+BF88  RIGHT MOUSE BUTTON IS 
+BFA2  ; 
+BFB0  MNT120
+BFBA  MBL16O1G#O2C#EG#C#EG#AEG#AO3EO2G#O3C#E
+BFE4  MBL16O3G#C#EF#O4C#O3EG#O4C#EO3G#O4C#EL8G#G#
+C014  MBL16O1G#CO2D#G#O1CO2D#G#CD#G#CO3D#O2G#CO3D#
+C044  MBL16O3G#CD#G#O4CO3D#G#O4CD#O3G#O4CD#L8F#F#
+C074  MBL16O2C#F#G#O3C#O2F#G#O3C#F#O2G#O3C#F#G#C#F#G#
+C0A8  MBL16O4C#O3F#G#O4C#F#O3G#O4C#F#G#C#F#G#L8O5C#C#
+C0DC  MBL16O2C#F#AO3C#C#F#A#O4C#C#F#A#O5L8C#C#
+C108  MBL16O2C#EFO3C#C#EFO4C#C#EFL8O5C#C#
+C130  MBL16O3G#O4G#O3G#O4G#O3A#O4G#O4CG#C#G#D#G#CG#
+C162  MBL16O4F#G#EG#EG#D#G#D#G#C#G#C#G#L4C
+C18A  MBL16O3G#O4G#O3G#O4G#O3A#O4G#O4CG#C#G#D#G#CG#
+C1BC  MBL16O4F#G#EG#EG#D#G#D#G#C#G#C#G#CG#
+C1E4  MBL16O3G#O4G#O3AO4FO3G#O4G#O3AO4FO3G#O4G#O3AO4FO3G#O4G#O3AO4F
+C226  MBL8O4G#O2L2G#.
+C23A  MBL16O1G#O2C#EG#C#EG#O3C#O2EG#O3C#EO2G#O3C#E
+C26A  MBL16O3G#C#EG#O4C#O3EG#O4C#EEG#O5C#L8EE
+C296  MBL16O2EFO3C#EO2FO3C#EFC#EFO4C#O3EFO4C#
+C2C2  MBL16O4EO3FO4C#EFC#EFO5C#O4EFO5C#L8EE
+C2EC  MBL16O2D#A#O3C#D#O2A#O3C#D#A#C#D#A#O4C#O3D#A#O4C#
+C322  MBL16O4D#O2A#O3C#D#A#O4C#D#A#O4C#D#A#O5C#L8D#D#
+C356  MBL16O4D#O3A#O4C#D#A#C#D#A#O5C#O4A#D#C#A#D#C#O3A#
+C38C  MBL16O4C#EF#G#ABO5C#O4BAEF#G#ABO5C#O4A
+C3B6  MBL16O4GEF#G#ABO5C#O4BAEF#G#ABO5C#DE
+C3DE  MBL16O5F#D#ED#EC#O4BAG#AG#F#G#F#G#O3E
+C408  MBL16O3F#EF#C#EC#EC#EF#G#ABO4C#O3B
+C42E  MBL16O3AEF#G#ABO4C#O3BAEF#G#ABO4C#O3B
+C458  MBL16O3AEF#G#ABO4C#DEF#G#ABO5C#DD#L4E
+C482  MBL08O4AF#C#O3AF#C#AF#C#O2AF#C#
+C4A6  MBL16O2AF#C#AC#F#AO3C#F#AO4C#F#AF#C#O3A
+C4D2  MBL16O2AF#DO1AO2DF#AO3DF#AO4DF#AF#DO3A
+C4FC  MBL08O5C#O4A#F#EC#O3A#O4EC#O3A#F#EC#O2A#
+C528  MBL16O3EC#O2A#F#EC#EF#A#C#ED#A#C#ED#A#O5C#O4A#E
+C55C  MBL08O5EC#O4G#EC#O3G#O4EC#O3G#L16EO4C#O3G#E
+C58C  MBL16O3C#G#EC#O2G#O3EC#O2G#EO3C#O2G#EC#G#EC#
+C5BC  MBL16O1GAA#BO2CC#C#D#EFF#F#G#AA#B
+C5E2  MBL16O3CC#C#D#EFF#F#G#AA#BO4CC#DD#EFF#F#G#
+C610  MBL32O4G#F#ED#F#C#CO4D#O3AG#F#AED#EC#CD#O2AG#F#AED#F#C#CD#O1AG#L1C#
+C658  DOSHAREWARE
+C668  end 
+C670   for 
+C67A   or
+C688   to:
+C690  (Send an additional $4.00 if you are ordering C.O.D. for S+H)
+C6D2  If you have any questions, bugs, or comments, call at:
+C70C  You can also use the phone to order C.O.D. for an additional $4.00 S&H.
+C758  (Phone message space is limited, so please be discretionary about calling.)
+C7AE  INVOICE
+C7BA  Remit to:
+C7C8  From:
+C7D2  Attention to (contact name):
+C7F2  UNIT PRICE
+C800  QTY
+C808  TOTAL
+C812  ___ 
+C81A  __________
+C828      C.O.D. shipping and handling (C.O.D. ORDERS ONLY!)
+C862      put $4.00 here for entire order
+C88A  __________
+C898  __________
+C8A6  I use 5 1/4 __________     3 1/2 __________  disks
+C8E4  ,00
+C8F0  ,0
+C8F6  (Y) YES
+C902  (N) NO
+C912  Y or N only, please

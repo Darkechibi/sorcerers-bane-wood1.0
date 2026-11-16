@@ -1,0 +1,88 @@
+{
+  "before": "before change",
+  "after": "after change",
+  "files": [
+    {
+      "name": "HALLFAME.DAT",
+      "status": "modified",
+      "sha1_before": "ff2951c48bc323d596fcead6d245e37a87b32465",
+      "sha1_after": "978aee2bd37ca8934d86f92e9d1f850ede15b164",
+      "byte_diff": {
+        "changed_count": 0,
+        "first_offsets": [],
+        "size_before": 996,
+        "size_after": 1162,
+        "appended_bytes": 166,
+        "truncated_bytes": 0
+      },
+      "text_preview_before": [],
+      "text_preview_after": []
+    },
+    {
+      "name": "HALLFAME.TXT",
+      "status": "modified",
+      "sha1_before": "c2849d6796d5076ed986e6c03ae25b3af325fe63",
+      "sha1_after": "f821271dc4d0d1210d3f46dd4985cc077f644850",
+      "byte_diff": {
+        "changed_count": 0,
+        "first_offsets": [],
+        "size_before": 453,
+        "size_after": 521,
+        "appended_bytes": 68,
+        "truncated_bytes": 0
+      },
+      "text_preview_before": [
+        " 1) TERIA               FIGHTER 13   currently adventuring in town",
+        " 2) REX FALCONBRIDGE    FIGHTER  1   killed on  1 by a SKELETON            ",
+        " 3) ALOYSIUS            FIGHTER  1   killed on  1 by a JACKAL              ",
+        " 4) ORION               BARD     1   killed on  1 by a HOBGOBLIN           ",
+        " 5) SERIA               FIGHTER  1   killed on  1 by a GOBLIN              ",
+        " 6) SELEE               MAGE     1   killed on  1 by a TRAPPED CHEST       "
+      ],
+      "text_preview_after": [
+        " 1) TERIA               FIGHTER 13   currently adventuring in town",
+        " 2) REX FALCONBRIDGE    FIGHTER  1   killed on  1 by a SKELETON            ",
+        " 3) ALOYSIUS            FIGHTER  1   killed on  1 by a JACKAL              ",
+        " 4) ORION               BARD     1   killed on  1 by a HOBGOBLIN           ",
+        " 5) SERIA               FIGHTER  1   killed on  1 by a GOBLIN              ",
+        " 6) SELEE               MAGE     1   killed on  1 by a TRAPPED CHEST       ",
+        " 7) TERIA               FIGHTER  1   currently adventuring in town"
+      ]
+    },
+    {
+      "name": "LIGHTCHI.SBC",
+      "status": "modified",
+      "sha1_before": "56d3afcb6b7beac083415b630fa6043e3c142896",
+      "sha1_after": "a228b0ada92bd07b4d1e7188b7ccc827c9d7cb40",
+      "byte_diff": {
+        "changed_count": 1,
+        "first_offsets": [
+          100
+        ],
+        "size_before": 166,
+        "size_after": 166,
+        "appended_bytes": 0,
+        "truncated_bytes": 0
+      },
+      "text_preview_before": [],
+      "text_preview_after": []
+    },
+    {
+      "name": "TERIA1.DUN",
+      "status": "added",
+      "size_after": 2032
+    },
+    {
+      "name": "TERIA1.INV",
+      "status": "unchanged",
+      "size_before": 0,
+      "size_after": 0
+    },
+    {
+      "name": "USER.SBS",
+      "status": "unchanged",
+      "size_before": 522,
+      "size_after": 522
+    }
+  ]
+}

@@ -1,0 +1,1010 @@
+              SORCERER'S BANE(v1.1) - USER DOCUMENTATION
+Table of contents
+
+       TOPIC                                                         PAGE
+   
+   I.  License agreement and limited warranty . . . . . . . . . . . .  2
+  II.  Dedications  . . . . . . . . . . . . . . . . . . . . . . . . .  3
+ III.  Forward  . . . . . . . . . . . . . . . . . . . . . . . . . . .  4
+  IV.  Background and history . . . . . . . . . . . . . . . . . . . .  6
+   V.  SB system requirements . . . . . . . . . . . . . . . . . . . .  8
+  VI.  Starting SB up . . . . . . . . . . . . . . . . . . . . . . . .  9
+       A.  Starting SB up - Running SB on your hard disk  . . . . . . 10
+       B.  Starting SB up - Running SB from two floppy drives . . . . 11
+       C.  Starting SB up - Performance considerations  . . . . . . . 12
+       D.  Starting SB up - Choosing the type of user you are . . . . 14
+       E.  Starting SB up - Multi-user setup  . . . . . . . . . . . . 15
+       F.  Starting SB up - Default screen  . . . . . . . . . . . . . 17
+ VII.  Creating a character . . . . . . . . . . . . . . . . . . . . . 18
+       A.  Creating a character - Rolling statistics  . . . . . . . . 19
+       B.  Creating a character - Choosing a race . . . . . . . . . . 20
+       C.  Creating a character - Choosing a class  . . . . . . . . . 21
+VIII.  Main menu  . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+  IX.  Character menu . . . . . . . . . . . . . . . . . . . . . . . . 23
+   X.  The CLERIC and the WANDERING CLERIC  . . . . . . . . . . . . . 24
+  XI.  The SHOP and the TRAVELING SALESPERSON . . . . . . . . . . . . 25
+ XII.  Running a character  . . . . . . . . . . . . . . . . . . . . . 26
+       A.  Running a character in SB - Options while in the dungeon. .27
+       B.  Running a character in SB - Map representation. . . . . . .28
+       C.  Running a character in SB - Monster interaction
+           (not just fighting). . . . . . . . . . . . . . . . . . . . 29
+XIII.  Benefits of shareware and registration . . . . . . . . . . . . 30
+ XIV.  Sample invoice for registration  . . . . . . . . . . . . . . . 31
+
+
+License agreement and limited warranty                           Page 2
+
+
+              Copyright 1992 Wood Software Development
+
+Many YEARS (off and on) were spent programming SB.  If you find SB to be
+fun and a well-written product, it would be appreciated if you repay the
+author for his years of hard work.  The registration fee is VERY reasonable
+compared to other available games,  and I think you'll find the playability
+and versatility of the game very habit forming.  There will be more about
+registration at the end of this manual, or you could simply print INVOICE.DOC
+that comes with your disk.
+
+Now for the legal stuff.  
+
+You're also welcome and encouraged to distribute this version of SB to 
+friends and associates.  However, the program must not be modified in any
+way,  all original files that come with SB must be distributed with SB,
+and this product is not to be packaged or sold with another product without
+the expressed written permission of the author.  Also remember that Sorcerer's
+Bane is copyrighted, and all benefits of that copyright apply.
+
+Wood Software Development disclaims all warranties, express or implied,
+including but not limited to implied warranties of merchantability or fitness
+for a particular purpose.  In no event will Wood Software Development be liable
+for any damages, including without limitation, damages for loss of business
+profits, business interruption, loss of business information, and the like
+arising out of the use or inability to use this software program(s), even
+if Wood Software Development has been advised of the possibility of such
+damages.
+
+
+Dedications                                                       Page 3
+
+
+I would be remiss if I did not call attention to a few people who, amazingly
+enough, are still talking to me after all this time of writing code, testing
+(for free, no less), giving ideas, and steering one crazy programmer into
+a better direction.
+
+First off, hats off to the Tuesday night Peacemakers, Inc., who can break
+any program, especially Kent, Larry, and Stuart.
+
+More thanks to Mike and Bill at the day job.  Also to Dave (the greed
+motivator) who pushed me hard to get this out.
+
+Special thanks to Charles and Co. and Scott and Co., who did most of the
+steering mentioned above, most of the testing, and most of the suggestions.
+
+And last but certainly not least, thanks to my girlfriend-now-wife Lyn who
+even still puts up with my crazy insto-rich schemes, my midnight programming,
+and my severe-near-terminal caffine addiction.  Who would have thought that
+"for better or worse" would have entailed so much.
+
+
+Forward                                                           Page 4
+
+
+After spending so much time on one project, you cannot help but feel a little
+remorse when finally sending out, right?
+
+Who am I kidding?  I've been trying to get this game out for the last two
+years.  It's been three years in the making.  Constant inconsistencies,
+active beta testers, and always always always new or now-used technology
+have certainly kept me busy.  I started completely over at least twice, have
+survived several disk crashes with poor backup procedures, and have had to add
+optional color and mouse control into QUICKBASIC.
+
+FINALLY, HERE IT IS!!!  My "I could write that--No problem" game.  Remorse?!?
+BWAA-HA-HA-HA-HA!!! 
+
+Even though I am happy with the way the game turned out, I thought I would
+discuss three options that I tried and then turned away.  Maybe in the next
+game or maybe not.
+ 
+    GRAPHICAL PICTURES -- Not including pictures might be, from a marketing
+                          standpoint, my biggest mistake. (However, the game
+                          is semi-graphical.) Including pictures would make
+                          the game too big AND not as flexible nor as playable, 
+                          especially when using a QUCIKBASIC-only environment.  
+                          I stand by my decision for now (right up there with 
+                          the makers of HACK, MORIA, DND, etc.)  I honestly 
+                          believe that this is one of if not the most playable
+                          game available.  Drop me a note if you think I'm
+                          wrong and tell me why.  Like I said, maybe next game.
+
+    MODEM SUPPORT - I really tried doing this, but the program just got too
+                    big.  I thought that SB would get A LOT more exposure over
+                    the BBSes as a door.  Still, it became a limitation, so
+                    I had to slice it out.  Again, let me know what you think.
+
+    MULTI-USER CAPABILITY - Although I screen for several users and allow
+                            password protection, I thought that keeping track
+                            of several players at once would slow down the game
+                            for single users too much.  Are you network users
+                            out there and hungry for entertainment?  If so,
+                            write me a note.
+
+By-the-by, if you haven't noticed, THIS GAME IS NOT AD&D nor was it meant to
+be.  I haven't even played AD&D until recently, and although it seems pretty
+fun, this game bears minimal resemblance to it.  The monsters are made up
+by me or exist in mythology.  I didn't make them like AD&D.  By the way,
+AD&D is a registered trademark of TSR Inc. (They made me say that.)
+
+Forward (continued)                                               Page 5
+
+Finally, unlike most other shareware authors, I have (gulp!) opened a phone
+line EVEN TO NON-REGISTERED USERS.  This phone line is really an answering
+service, and I can only handle a limited amount of messages.  If you wish
+to leave a message, FEEL FREE to do so.  Just remember, I may or may not 
+get it EVEN THOUGH IT SOUNDS LIKE YOU LEFT ONE.  To be reliable, why not
+drop a stamp on a note and send it through.  If you want me to call you
+back to discuss a bug, I will. (NOT "I don't like this" or "you should
+include this", but an actual "My system went south..." message.  You can
+leave messages, but I probably won't call you back.)  All call backs WILL
+BE MADE COLLECT.  Sorry, but that's the price you pay.
+
+The phone will also take C.O.D. orders which will be shipped within the
+week (if I get your message), but there is an extra $4.00 charge (to cover
+the additional expense of C.O.D. delivery.  Of course, a money order
+is probably your quickest way to receive SB plus all the goodies.
+
+Most of you can stop reading here.  Hopefully, I have made the game easy
+enough for anyone to use without read thousands of lines of documentation
+first.  Still, here's the documentation if you want it.
+
+
+Background and history                                          Page 6
+
+
+Welcome to Sorcerer's Bane.  Sorcerer's Bane is a dungeon game of
+mystery and intrigue where a character which you define runs through the
+Dungeon of Mogadore to face the evil Lodi himself at the bottom of the
+dungeon. (Hmmm. I wonder if you're up to it.)
+
+The town of Mogadore was supposed to be the site of a magician's academy of
+mammoth proportions.  Two powerful wizards, Lodi and Sabee, were dedicated to
+the development of this learning institution.  These wizards developed two
+STAFFS OF POWER to aid them in both the development of the academy and for
+protection while they were digging through the dungeons of Mogadore.
+                               
+Ah, but the best made plans often go awry.  For some 'unknown reason', Lodi
+turned evil.  Lodi killed Sabee by taking him by surprise, in the hopes of
+combining the near-omnipotent power of the two staffs. (GASP! This is more
+thrilling than a Dudley Doright rerun.)
+
+For some OTHER 'unknown reason', Lodi was not able to manipulate Sabee's staff.
+Lodi could have destroyed it, I suppose, but with that much magic being
+released, Lodi's very existence would be threatened.  He opted for the safe
+route, and divided the staff (carefully!) into four quarterstaffs.  He then
+tricked, paid, or forced four dragons to guard the four quarterstaffs.
+
+Lodi then barred himself at the bottom of his newly-created dungeon to go over
+plans for the evil domination of the entire realm!  He gathered every type of
+evil, nasty, and cruel monster to populate the dungeon to stop would-be
+adventurers (like yourself) from thwarting his plans.
+
+Your mission, should you choose to acce . . .(Oops. Wrong script!)  Ahem!  What
+you need to do is fight your way to the bottom of this dungeon, recover the
+parts of the other staff, save the girl, (Oops. No girl. Scratch that last one.)
+answer the 'unknown reasons', and save the realm.  (And YOU thought this would
+be difficult.)
+
+Don't descend into the dungeon too quickly.  The monsters get harder to fight
+as you descend, and your character must have both the experience and the magic
+items needed to fight them.
+
+You will find magic items and gold in the dungeon left by now-dead adventurers.
+Magic items need to be either worn or used.  Magic items will not affect your
+character until they are implemented.  Not all magic items are good, so be
+careful.
+
+
+Background and history (continued)                              Page 7
+
+Above the dungeon is the town.  You may want to visit some of the stores in
+town before going too deep into the dungeon.  In town, you can buy magic items,
+get healed, have cursed items removed, identify items, and much more.  However,
+all this takes money, so be sure to find some money in the dungeon first.
+
+So create a new character and start adventuring.  Be careful, fight smart and
+well, and you may just survive to tell your tale to others.  Oh yes, and don't
+forget to print the registration, fill it out, and register.  Good luck, and
+Godspeed!
+
+SB system requirements                                          Page 8
+
+
+SB requires about 700KB of disk space to run.  The actual requirements would
+be 500KB to run plus about 65KB per character running. 700KB would give
+you 3 characters.  If you are administrating this, you should keep these
+numbers in mind.  If several people are accessing this at once or if one
+person is creating many characters, it will use precious disk space.
+
+SB requires at least 340KB of accessible RAM.  This is enough for most
+users except for the original PCs, which only had 256KB.  Sorry.  I tried
+to fit it in that space, but it came down to either don't make it as
+fully featured or scale up the memory requirements.
+
+SB runs much better on a hard drive or a RAMDRIVE than on a floppy, although
+running from a floppy is certainly possible.
+
+SB can use a mouse, but by no means is this necessary.  (Indeed, it was almost
+an afterthought to put mouse control in.)
+
+SB looks a lot better in color, but can be set for monochrome.  You early LCD
+laptop users will want to set monochrome on, as well as you Hercules 
+monochrome card owners.  SB was written, of course, to please as many people
+as possible without leaving non-cutting-edge users behind.  Hopefully I
+have done that.
+
+Details on setting up SB immediately follow these requirements.
+
+
+Starting SB up                                                  Page 9
+
+SB can be run on a hard drive, floppy, or RAMDRIVE.  The following pages
+describe the different ways SB can be set up on different hardware.
+
+Also, since different users have different needs, SB is networkable.  
+SB can be configured as either a single user or multi-user system.
+
+Finally, several of the options in SB can be eliminated, such as color,
+music, error beeps, and mouse control.  You will enter this screen the
+first time you play SB, so be prepared.
+
+
+Starting SB up - Running SB on your hard disk                   Page 10
+
+
+The SB system should be in its own subdirectory.  (You'll be glad you did
+if you want to copy it to someone else or (SOB!) eventually delete it off
+your hard drive.)  To do this, (assuming you are loading from floppy drive
+A:,) type in the following commands:
+ 
+      C:
+      CD\
+      MD \SB
+      CD \SB
+      COPY A:*.*
+
+Then, to run SB, simply type in the commands:
+    
+    CD\SB
+    SB
+
+You will need at least 700KB free, or maybe more if you run with a lot of
+characters and/or a lot of players.  There now.  That wasn't so hard, was it?  
+
+
+Starting SB up - Running SB from two floppy drives.            Page 11
+
+
+You can also run SB from a floppy, but I wouldn't since RUNNING SB FROM A 
+FLOPPY IS REEEAAAL SLOW!  This is due to the amount of disk I-O performed by 
+SB.  Still, if it's all you got (assuming you have both an A: and B: drive),
+do the following steps.
+    
+    1)  MAKE A BACKUP FIRST of your floppy!!!  Make your backup with the 
+        following DOS command:
+
+            DISKCOPY A: B:
+
+    2)  Put your original SB disk in a safe place.
+
+    3)  Put your copy of SB in drive B: and a COMPLETELY blank floppy in
+        A:.  This is your DATA DISK.  Issue the following commands:
+
+            COPY B:*.DAT
+            COPY B:*.DUN
+            COPY B:*.INV
+            COPY B:*.SB*  (This one may fail.  That's OK.)
+
+    4)  Every time you run SB, stick your DATA DISK in drive A: and your
+        copy of SB in drive B:.  Type in the following commands to run
+        SB from your floppies:
+
+            A:
+            B:SB
+
+    5)  Be careful not to run this with too many live characters or on
+        multi-user as your disk space will be limited.
+
+
+Starting SB up - Performance considerations                   Page 12
+
+
+This next section is for the somewhat technically oriented.  If that's not
+you, probably just skip this or have someone explain it to you.  
+
+To REALLY SPEED UP your SB, try running it from a RAMDRIVE.  You can set
+one up if you have DOS 3.1 (I think) or above.  See your DOS manual about
+putting RAMDRIVE in your CONFIG.SYS.  Always use extended or expanded memory
+if available and remember that SB takes up about 340KB to run.
+
+To run from a RAMDISK, set up the following batch (.BAT) file in your
+path (ASSUMING YOUR RAMDISK IS D:.  IF IT ISN'T, CHANGE ALL OCCURRENCES
+OF D: BELOW TO YOUR RAMDRIVE DRIVE)  Lower case instructions are just
+comments, and please don't type them in.
+
+      ECHO OFF           (Turn off display.  This is optional.)
+      C:                 (Attach to the C drive.)
+      CD\SRC\SB          (Attach to the SB source directory.)
+      D:                 (Attach to the RAMDRIVE.)
+      COPY C:*.INV        
+      COPY C:*.DAT       (Copy all data files to the RAMDRIVE.)
+      COPY C:*.SB*        
+      C:SB               (Execute the SB program on the C: drive.)
+      C:                 (When SB is done, attach to the C drive.)
+      DEL *.DUN          (Delete old, outdated files.)
+      DEL *.INV           
+      COPY D:*.*         (Copy new, updated files.)
+      ECHO ON            (Turn on display.  This is optional.)
+ 
+Be careful not to run to many characters on your RAMDRIVE if space is limited.
+ 
+I have noticed that a real good caching system (like SMARTDRV from WINDOWS 3.1
+or PC-CACHE from PCTOOLS) can come REAL CLOSE to REMDRIVE performance, and a
+caching system would improve your entire system performance.  DOS 4.0 and
+above also comes with a version of SMARTDRV (but it's not quite up to WINDOWS).  
+I HIGHLY recommend a caching not only for SB but for all applications.  Check
+your DOS manual for details.
+
+
+Starting SB up - Performance considerations (continued)        Page 13
+
+
+Executing FASTOPEN in your AUTOEXEC.BAT for MS-DOS versions 3.3 and above
+(perhaps 3.1.  I'm not sure.) will also speed up ALL repeated file access.
+Some other DOS applications seem a little touchy with FASTOPEN, but I
+don't boot up without it, and I'm still running.  Just be careful to remove
+it when running some low-level programs like PC-TOOLS COMPRESS or NORTON
+UTILITIES SPEEDDISK.  (Low-level programs are the hard ones to write, in
+case you're curious.)  Check your DOS manual to see if you can run FASTOPEN.
+
+Some programs (like WINDOWS) can speed your keyboard up.  This might make
+SB more enjoyable.  There are some available on shareware. Check into it
+if you're interested.
+
+Starting SB up - Choosing the type of user you are.             Page 14
+
+
+If you are the first one to run SB on this system, you will have to decide how 
+you want SB administered.
+
+You have your choice of whether to set up SB as multi-user or single-user.
+The following is a guide as to which setup is best for you.
+
+A single-user setup is when you are not running over a network and you either
+are the only one who accesses this game OR you trust the other computer users
+enough to not worry about password protection.  I would imagine that most of
+you would pick single-user so as to not mess with passwords and the like.
+
+A multi-user setup would configure the game to accept several users at one 
+time.  This configuration would also be chosen if you several people had 
+access to this computer AND you did not want them using your characters.  In 
+the multi-user setup, password protection is enforced.
+
+
+Starting SB up - Multi-user setup.                              Page 15
+
+
+If you are the first person to use this system, you are now the defacto SB
+ADMINISTRATOR.  This will give you powers and abilities beyond those of mortal
+players.
+
+Remember, this is your system, so answer the following questions carefully. If
+you aren't careful, SB may take up a large chunk of your resources or too much
+of your prime system hours.  Fortunately for you, SB has been created to allow
+the SB ADMINISTRATOR to limit SB usage on multi-user systems.  On the following
+screen, you will be asked questions about configuring the SB system.
+
+If you have elected the multi-user setup, SB will let you choose several
+options to control the use of SB on your network or PC.  The following fields
+can be entered on the multi-user screen.  If you do not wish to enact any or 
+all of these features, simply leave the field blank.
+
+MAXIMUM USERS ALLOWED
+This is the number of players allowed to use SB at one time.
+
+MAX (LIVE) CHARACTERS
+This is the maximum amount of characters any player can
+have running concurrently in SB.  Only live characters count.
+
+STARTING BLOCKED HOUR
+Sometimes a network will be overloaded at specific times during the day
+so that playing a game would be counter-productive.  (Imagine that!)  Hence, 
+SB allows the SBA to declare a 'STARTING BLOCK HOUR' (or SBH).  The SBH is the
+first hour in a block of hours that SB WILL NOT be allowed to be played.  For
+instance, if you wanted to block SB from 8:00 A.M. to 5:00 P.M., your SBH 
+would be 8.  If you don't want to limit when SB can be played at all, simply 
+return through the next question.
+
+HOURS BLOCKED
+HOURS BLOCKED can disallow access to SB during certain time periods.  This 
+field tells how many hours you want blocked out.
+
+MAX MINUTES OF PLAY
+This field is used to relegate the amount of contiguous time allowed on playing
+SB.  Again, it is typically for company installations, etc.
+
+Starting SB up - Multi-user setup (continued)                  Page 16
+
+SB SYSTEM PASSWORD
+SB allows you, as the system administrator, to configure a system password.
+This would allow you to run ANY PLAYER's characters.  This would be useful
+for answering any questions a user might have OR defining and/or reporting
+any problems that may occur with the SB.
+
+However, a SB password is a two-edged sword.  If you let your SB password
+get out, it may be possible for any user to reak havok on SB.  This may cause
+more trouble than it's worth.
+
+Often, a SB ADMINISTRATOR will need to enter into a character's area to resolve
+some conflict or to (hopefully not!!) recreate some bug to be reported.  This
+password allows the SB ADMINISTRATOR to access any user/player running SB.
+
+ 
+
+Starting SB up - Default screen                               Page 17
+
+This screen is called when any new player or single user is set up in SB.
+The following options let you choose the system defaults used in Sorcerer's
+Bane:
+
+(C) TURN THE COLOR ON/OFF
+This allows you to toggle your game to color or monochrome.  Laptop LCD users
+will probably want the color turned off.
+ 
+(S) TURN THE SOUND (MUSIC) ON/OFF
+Hey, I know that it's a great theme song and you could listen to it for hours,
+(I like to call it "Bastardized Beethoven"), but should you be so inclined,
+you could toggle the music off and on with this option.
+
+(E) TURN THE ERROR ALARM ON/OFF
+Those beeps can get annoying, especially late at night or on the job.  This
+option turns off the error beep.
+
+(M) TURN THE MOUSE ON/OFF
+This game works fine with a numeric keypad, or even a 4-key arrow keypad.  It
+also works with a mouse.  You can turn this option off, especially if you are
+running this in OS/2 2.0 partial screen. (This hurts my mouse control.)  This
+option will not display if you do not have a recognizable mouse.
+
+(D) TURN THE MOUSE BUTTON DESCRIPTION ON/OFF
+In SB, the two mouse buttons usually stay pretty consistent.  The left button
+means ENTER (choose, etc.).  The right button means ESC (Quit, Run, No, etc.).
+The actual meaning can be displayed if this option is on.
+
+(H) HELP
+Help displays this text.
+ 
+(Q OR ESC) SAVE & GO TO MAIN OR PREVIOUS MENU
+This option always saves the default information.  It then usually goes back
+to the previous calling menu UNLESS it is on a new player or when Single user
+is defined.  It will then go to the MAIN MENU.
+
+
+Creating a character                                            Page 18
+
+Before you can have any fun in SB, you must first create a character.  This
+is done through with the (C) option on the main menu.  Creating a character
+is easy, and can be done with minimal time or effort.  The following pages
+will step you through the character creation process.
+
+
+Creating a character - Rolling statistics                    Page 19
+
+The six main statistics, along with random events, determine how well your
+character will perform in Sorcerer's Bane.  The following is a description
+of each one and how each one affects you.  Unlike typical adventure games,
+each statistic will affect the majority of events in Sorcerer's Bane.  (i.e.
+a smart fighter will fight better than a stupid one.)
+
+STR
+Strength - Strength describes how physically strong your character is. It
+           primarily determines how much damage you do once you hit an
+           opponent, but also affects your hitting ability, your protection
+           protection and your ability to talk to and purchase from the shop.
+
+INT
+Intelligence - Intelligence mainly affects your ability to use magic,
+               magical items, and resist magic, and your alertness.  It
+               also affects your hitting ability, your protection, your
+               avoiding ability, your ability to run away, and your charm.
+
+CON
+Constitution - Constitution is how well you take a hit.  It determines how
+               well you can take a punch, along with how many hit points
+               you receive each time you go up a level.
+
+DEX
+Dexterity - Dexterity is how agile you are.  It mainly affects your
+            ability to hit an opponent, your protection, your ability
+            to avoid being hit, and your ability to run away.  It also
+            affects your magical resistance, your avoiding ability, your
+            ability to use a magical item, and your alertness.
+
+CHR
+Charisma - Charisma is how good you look.  It is the major component of
+           your charm, which is used when talking to an opponent or buying
+           from the shop.
+
+LCK
+LUCK - Luck affects EVERY extended attribute, but only affects them minimally.
+
+Creating a character - Choosing a race                          Page 20
+
+
+Your race should be chosen to reflect what kind of character you wish to be.
+All races except Human affect your statistics, either raising them or lowering
+them as that race relates to the Human race in Sorcerer's Bane.  Please note
+that some of the description might not match up to other adventure games, but
+for various reasons, these are the one's used in Sorcerer's Bane.
+
+HUMAN
+A human has the traits that all other races are measured by in
+Sorcerer's Bane.  As the second strongest race, Humans make good
+fighters, but can excel in any class.
+
+TROLL
+A Troll is a creature from the bitter Coldlands. Surviving in such
+a harsh environment has made Trolls a very hardy and strong race,
+while at the same time not doing much for their appearance.  Trolls
+rely on strength, hardiness, and agility to survive.  They are not
+great thinkers.  Like the elves, Trolls scorn luck as unreliable,
+preferring to take matters into their own hands.
+
+ELF
+An Elf is a creature from the woodlands.  They are considered beautiful
+and magical.  Though not as hardy or strong as a Human, they usually
+are more intelligent and more nimble.  Elves tend to scorn luck as
+unreliable.  Elves make good magicians.
+
+DWARF
+Dwarves usually live underground.  They are famous for their work with
+metal and mining.  They tend to be somewhat smaller than Humans.  This
+allows them to fit into smaller places, like the mines.  They are not as
+strong as Humans due to their size, but they make up for it with their
+hardiness and agility.  Dwarves tend to be more intelligent than Humans
+due to much self-reflecting. Like the Elves and the Trolls, Dwarves
+scorn luck as a weakling's way out. Dwarves can excel in any class.
+                      
+GNOME
+Gnomes share the woodland with the Elves.  They are not as beautiful as
+the Humans and the Elves, due to their short and pudgy stature.  Gnomes
+live in trees and are very close to nature.  They are the weakest of all
+the classes.  They tend to live in milder climates, and are not too
+hardy. Unlike the Elves, Trolls, and Dwarves, Gnomes view luck as
+desirable and someone who is lucky as close to nature.  They are nimble
+and have an enlightened outlook on life.  They make very good magicians.
+
+
+Creating a character - Choosing a class                         Page 21
+
+
+Your class tells what kind of character you are and what powers you have.  The
+brief description following will describe each class:
+
+FIGHTER
+A fighter is good at fighting.  He does not cast spells or sing songs
+like a mage or a bard, but he can use magical items.  A fighter should
+have good strength and dexterity.  Humans and Trolls make good
+fighters.
+
+MAGE
+A mage, or magician, is the spell-caster.  He can fight, especially
+when he runs out of spells, but spells are what he usually uses
+if possible.  A mage should have high intelligence.  Elves, Dwarves,
+and Gnomes make good mages.
+
+BARD
+A bard fights well, but not as good as a fighter.  He sings songs
+that aid in fighting or healing.  Songs are different in nature from
+spells.  Songs usually work slower but are more constant than spells.
+A bard also never runs out of songs once he learns them.  However, his
+songs are every bit as powerful as spells, but are fewer in number.
+Any class can make a good bard.
+
+MAIN MENU                                                       Page 22
+
+The MAIN MENU pops up first every time you run SB (with the exception of the
+install, which only pops up once).  This menu allows you to inquire about
+certain game facts or to start running either a new or existing character in
+SB.  The options for this menu are as follows:
+
+(C) CREATE A NEW CHARACTER
+This option lets you design a character suitable for running in
+Sorcerer's Bane.  You will be able to choose a character's main statistics,
+race, and class.  You must create a character before using one.
+
+(U) USE AN EXISTING CHARACTER
+This option lets you use a previously created character in Sorcerer's Bane.
+The character you pick can visit the cleric or the shop or run in the dungeon
+
+(C) LIST ALL CHARACTERS
+This option lists all the characters currently running in Sorcerer's Bane.
+
+(A) SHOW A CHARACTER'S ATTRIBUTES
+This option shows the attributes of an existing character.
+
+(F) FIND THE EXPERIENCE FOR A LEVEL
+This option allows you to find the experience level needed to reach different
+levels for different classes.
+
+(K) KILL AN EXISTING CHARACTER
+This option 'kills' an existing character and releases any disk space this
+character may be using.
+
+(D) CHANGE SYSTEM DEFAULTS
+This option allows you to change certain defaults in Sorcerer's Bane like sound
+and graphics.
+
+(I) INTRODUCTION
+This option reprints the introduction.  A MUST for new users.  This will answer
+many questions you have about the game.
+
+(P) PRINT THE REGISTRATION FORM
+This option prints the registration form so you can become a registered user.
+
+(H) HELP
+Help prints this summary on your screen
+
+(Q or ESC) QUIT THE GAME
+As stated, this option quits the game and returns you to DOS
+
+Character menu                                                  Page 23
+
+
+(R) RUN YOUR CHOSEN CHARACTER
+This option lets you run a previously created character in the dungeon.  Only
+by running a character initially can you gain gold and experience.
+
+(A) SHOW A CHARACTER'S ATTRIBUTES
+This option shows the attributes of an existing character.
+
+(S) HAVE A CHARACTER VISIT THE SHOP
+This option lets the character visit the shop.  Although you can visit the shop
+with no money, it won't help you.  To get gold, run in the dungeon.
+
+(C) HAVE A CHARACTER VISIT THE CLERIC
+This option lets the character visit the cleric.  The cleric can heal you and
+remove cursed items and sickness that you may have acquired in the dungeon.
+To get gold, run in the dungeon.
+
+(W) MAKE A WISH
+This option allows a character to make a wish.  A character must be granted
+a wish either in the dungeon or by a magical item before he can make a wish.
+levels for different classes
+
+(F) FIND THE EXPERIENCE FOR A LEVEL
+This option allows you to find the experience level needed to reach different
+levels for different classes.
+
+(I) INTRODUCTION
+This option reprints the introduction.  A MUST for new users.  This will answer
+many questions you have about the game.
+
+(D) CHANGE SYSTEM DEFAULTS
+This option allows you to change certain defaults in Sorcerer's Bane like sound
+and color.
+
+(P) PRINT THE REGISTRATION FORM
+This option prints the registration form so you can become a registered user.
+
+(H) HELP
+Help prints this summary on your screen
+
+(Q or ESC) SAVE AND RETURN TO MAIN MENU
+As stated, this option automatically saves what you've done and returns to the
+main menu.
+
+The CLERIC and the WANDERING CLERIC                              Page 24
+
+
+Sometimes, bad things can happen to you in the dungeon, especially as a first
+level character.  There is a CLERIC in town that can heal you cheap and perform
+other tasks as well.  I really would recommend seeing him early and often 
+until you get your character built up.
+
+Further down in the dungeon, you may run across a WANDERING CLERIC.  This
+person can perform all of the same functions as the CLERIC.
+
+The following options for the CLERIC are as follows:
+
+(C) CURE WOUNDS
+This option immediately restores hit points lost in the dungeon.  Hitpoints
+also regenerate over time.
+
+(S) HEAL A SICKNESS
+This option removes a sickness.  Since sickness makes it difficult to 
+automatically regenerate hit points, you probably want rid of it.  Sickness
+can also be removed by certain magical items, by a wish, or sometimes at the
+fountains found in the dungeon.
+
+(R) REMOVE A CURSED ITEM
+If you pick up a cursed item and WEAR or WIELD it before knowing what it is,
+you will probably want it removed.  Lerend can do that.
+
+(I) INVENTORY MANAGEMENT
+This option allows the character to wear, wield, or use any item in his 
+inventory, and to perform other inventory-related functions.
+
+(H) HELP 
+Help prints this message
+
+(Q OR ESC) RETURN TO MAIN MENU
+When you are finished at the cleric's temple, hit 'Q' or 'ESC to return to the
+character menu.
+
+The SHOP and the TRAVELING SALESPERSON                             Page 25
+
+
+You can buy equipment, have items identified, etc. at the shop in town.  This
+can be done before you start adventuring.  I really recommend that you stop
+by there before going in. 
+
+Further down in the dungeon, you may run across a TRAVELING SALESPERSON.  This
+person can perform all of the same functions as the SHOP.
+
+The following options for the SHOP are as follows:
+
+(B) BUY AN ITEM
+This option allows you to buy an item in the shop.  Only non-magical items
+can be purchased here, although the shop keeper can identify any item.
+
+(S) SELL AN ITEM
+This option allows a character to sell an item that is no longer needed or
+used.  With the exception of a BAZERKER SWORD, only non-cursed items can be
+sold.  Also, you cannot sell an item you are wearing or wielding.
+
+(K) IDENTIFY AN ITEM
+Identifying an item allows the shopkeeper to tell you what an item is, whether
+it is cursed or not, and it gives you the ability to sell the item.
+
+(R) RECHARGE A WAND
+Wand can expend charges over time.  The shopkeeper can recharge a wand.  This
+will never destroy the wand, but it can actually lessen the charges in a wand,
+especially a fully-charged one.  As this is the secret art of the shopkeeper
+and identified items don't tell the number of charges, you never know if it
+worked or not.  Still, it is a good idea to do on a wand that has been used
+with regularity.
+
+(I) INVENTORY MANAGEMENT
+This option allows the character to wear, wield, or use any item in his
+inventory, and to perform other inventory-related functions.
+
+(H) HELP
+Help prints this information
+
+(Q OR ESC) RETURN TO MAIN MENU
+When you are finished at the shop, hit 'Q' or 'ESC to return to the
+character menu.
+
+
+Running a character                                                Page 26
+
+
+Running a character requires adventuring in the dungeon.  The PREMISE of the
+game is as follows: 
+
+     1) An evil sorcerer (Lodi) is trying to take over the realms. 
+     2) Lodi lives at the bottom of the dungeon of Mogadore (this dungeon).
+     3) The only way to defeat Lodi is to acquire the STAFF OF POWER which
+        currently is being guarded by four dragons somewhere in the dungeon.
+     4) Lodi, in an effort to protect himself, has stocked the dungeon with
+        hundreds of evil creatures that will attack you on sight.  He has
+        also set traps to try to befuddle you.
+
+The OBJECT of the game is to get the STAFF OF POWER, stop Lodi's wickedness
+(probably by killing him), to stay alive, and to have fun.
+
+You will pick up many magical items along the way.  You can also find or buy
+non-magical items in the SHOP in town once you get enough money.
+
+As you adventure, you will receive more hitpoints.  Hitpoints are your
+life energy.  Once they go to zero, you die.  The CLERIC in town can restore
+your hitpoints, and hitpoints will regenerate over time.
+
+
+Running a character in SB - Options while in the dungeon            Page 27
+
+
+While running in the dungeon, several options are available:
+
+MOVEMENT
+
+    (), (8)    - up (north)
+    (), (2)    - down (south)
+    (->) (4)    - left (west)
+    () (6)     - right (east)
+    (HOME), (7) - up-left (north-west)
+    (END), (1)  - down-left (south-west)
+    (PGUP), (9) - up-right (north-east)
+    (PGDN), (3) - down-right (south-east)
+
+INFORMATION
+
+    (X) - Display a character's extended attributes
+    (I) - Inventory management (Wear, wield, or use an item) - You will need
+          to do inventory management every time you find an item, so be
+          ready.  Items will NEVER work unless they are wielded, worn, or
+          used.
+    (H) - Help (Pull up this information)
+
+MISCELLANEOUS
+
+    (W)          - Make a wish (Wishes have to be found or granted.)
+    (C)          - Cast a magical spell (mages only)
+    (S)          - Sing a magical song (bards only)
+    (INS), (0)   - Toggle running mode on/off
+    (Q), (ESC)   - Quit running and return to CHARACTER MAIN MENU
+    ENTER        - Pull up menu
+
+Running a character in SB - Map representation                     Page 28
+
+
+                     MAP KEY/CHARACTER REPRESENTATION
+   
+                      - Upstairs               - Downstairs
+
+   ë                   - Fountain          —     - Throne
+
+                      - Trap              $     - Treasure
+
+   ≥ ƒ ¡ ¬ ⁄ ø Ÿ ¿     - Walls             ∫ Õ   - Doors
+
+   D                   - Dragon            W     - Wizard
+
+   ù                   - Player
+
+
+Running a character in SB - Monster interaction (not just fighting) Page 29
+
+
+Monsters in SB are there to stop you from progressing.  Some fight really
+well, while others even have special powers that may severely hinder you.
+Also, not all creatures in SB are bad, so you may want try talking.
+Usually, you will want to fight a monster until one of you is dead.  However,
+sometimes a more subtle approach is desired or even required.  
+
+The following are options that you can do when you meet up with a monster:
+
+(F) FIGHT
+This option tells the character to do one round of fighting with this monster
+
+(K) KILL
+This option tells the character to continue fight to the death with the
+monster.  It is typically used for fighting easy-to-kill creatures.
+
+(T) TALK
+This option tells the character to try and either reason with this creature
+or at least soothe it with gentle talking (i.e. "Nice Doggie").  This will
+always work with good creatures, sometimes work with neutral creatures, and
+never work with inherently evil creatures.
+
+(R), (ESC) RUN
+This option tells the character to try to get away.
+
+(M) MONSTER INFO
+This option tells you about the monster you are facing.  It also compares the
+monster's extended attributes with your own.
+
+(C) CAST
+This option tells a mage to cast a spell.  This will only work with mages.
+
+(S) SING A SONG
+This option tells a bard to sing a magical song.  This will only work with
+bards.
+
+(I) INVENTORY MANAGEMENT
+This option allows the character to use his inventory.  This always takes one
+round, but allows the character to exchange multiple items, or use 1 item.
+
+(W) WISH
+This option allows the character to make a wish.  Wishes have to be granted
+or found, and this always takes at least one round.
+
+(H) HELP
+Pull up a description of these items.
+
+
+Benefits of shareware and registration                          Page 30
+
+
+Hi! This is Chuck Wood, the author of Sorcerer's Bane.  I hope you have
+enjoyed playing my game.  This game is not free, but is distributed as
+shareware.  That means that if you like Sorcerer's Bane, you would pay the
+reasonable registration fee.  It also means that you are not only allowed but
+but encouraged to make FULL (please!) copies of this product and pass them on
+to others.
+
+Registration will be its own reward.  For only $19.95, you will not only
+receive the most up-to-date version of my game, but will also get my "Game
+Master" (GM) set of programs. These will allow you to add items and monsters,
+edit character stats, and resurrect characters from the Hall of Fame list.
+
+For only $99.95, you receive all of the above PLUS a copy of SB and GM source
+code, a royalty-free version of BASWOOD (with source) which is a BASIC
+development library that includes keyboard control, mouse control, color
+control, screen and field entry, and an excellent pull-down menu handler
+(that is used throughout SB).  Printed documentation for all the software is
+also included.  All code is completely self-contained and written ENTIRELY in
+MICROSOFT(R) QUICKBASIC(TM), so it should be easy to customize.
+
+Your registration fee entitles you to use all software received on a single
+computer, make as many backups as you wish, and/or transfer all rights to
+the software to another individual.  Although you cannot use the source code
+for SB or GM for distribution without written expressed permission of the
+holder of the copyright, you can use the BASWOOD utilities to make and
+distribute your own software ALONG WITH the BASWOOD.LIB that will come with
+the 99.95 registration.  Site licenses are also available; call for details.
+
+WHAT A DEAL!!!
+
+So don't delay!  Print the registration form, fill it out, and send it in with
+your check or money order today! (No cash please, for my sake as well as yours,
+and all checks must be drawn against U.S. banks.)  Make all checks out for
+either $19.95 (for the SB regular registration) or 99.95 (for the SB extended
+registration). And by all means, enjoy the game!  Don't forget to eat, sleep,
+and go to work while you are playing.
+
+
+
+
+                                  INVOICE
+
+Remit to:                              From:
+
+
+WOOD SOFTWARE DEVELOPMENT              ________________________________________
+P.O. BOX 50681
+INDIANAPOLIS, IN 46250                 ________________________________________
+317-123-4567
+                                       ________________________________________
+
+                                       ________________________________________
+
+
+                                       Attention to (contact name):
+
+
+                                       ________________________________________
+
+                                       ________________________________________
+
+
+QTY                                                   UNIT PRICE    TOTAL
+
+
+___ Standard SB Registration with GAME MASTER         19.95         __________
+
+___ Extended SB Registration with GAME MASTER,
+    BASWOOD BASIC tools, source code, and manuals     99.95         __________
+
+
+
+                                                      TOTAL         __________
+
+
+I use 5 1/4 __________     3 1/2 __________  disks
+
+Your registration fee entitles you to use all software received on a single
+computer, make as many backups as you wish, and/or transfer all rights to
+the software to another individual.  Although you cannot use the source code
+for SB or GM for distribution without written expressed permission of the
+holder of the copyright, you can use the BASWOOD utilities to make and
+distribute your own software ALONG WITH the BASWOOD.LIB that will come with
+the 99.95 registration.  Site licenses are also available; call for details.
+
+Check or money order only (No cash please, for my sake as well as yours,
+and all checks must be drawn against U.S. banks.)  Make all checks out for
+$19.95 for each SB regular registration and 99.95 for each SB extended
+registration.  Most corporate P.O.s also accepted.  Allow 6 weeks for
+delivery on personal checks.  Money orders, corporate P.O.s, and C.O.D. 
+allow 1-2 weeks for delivery.
