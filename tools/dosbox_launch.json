@@ -1,6 +1,6 @@
 {
   "_comment": "Edit this file to change how DOSBox-X starts. Paths can use forward slashes.",
-  "dosbox_exe": "D:/bin/D-Fend/dosbox-x/dosbox-x.exe",
+  "dosbox_exe": "C:/path/to/dosbox-x.exe",
   "working_dir": "dos",
   "logfile": "sb_trace.log",
   "drive_letter": "d",

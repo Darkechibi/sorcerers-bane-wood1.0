@@ -13,7 +13,7 @@ Use **DOSBox-X** (not old DOSBox 0.74). You already have it at
 
 ### A1. Confirm game files are in this folder
 
-Folder: `C:\Users\LightChibi\Documents\my Codework\sorcebanedecompile`
+Folder: the repo root (this project directory)
 
 You should see at least: `SB.EXE`, `MONSTER.DAT`, `SB.DOC`, `USER.SBS`.
 

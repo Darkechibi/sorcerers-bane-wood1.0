@@ -22,8 +22,9 @@ KILLLOCK.SBL
 # Test fixtures hold personal save games — keep local only
 tests/fixtures/
 
-# Local scratch / backups
+# Local scratch / backups / built installers
 *.zip
+dist/
 before change/
 after change/
 captures/

@@ -95,14 +95,14 @@ Other useful flags (add to `cli_debug_flags` if you want):
 
 ## Alternative: `[autoexec]` in dosbox-x.conf
 
-Advanced: edit `D:\bin\D-Fend\dosbox-x\dosbox-x.conf` section `[autoexec]`:
+Advanced: edit your `dosbox-x.conf` section `[autoexec]`:
 
 ```ini
 [autoexec]
 @echo off
-mount d "C:\Users\LightChibi\Documents\my Codework\sorcebanedecompile"
+mount d "C:\path\to\this\repo\dos"
 d:
-sb.exe
+SB.EXE
 ```
 
 Then start DOSBox-X without `play_sb.bat`. The JSON launcher is easier for this project.
@@ -114,5 +114,5 @@ Then start DOSBox-X without `play_sb.bat`. The JSON launcher is easier for this 
 If `play_sb.bat` fails, set `dosbox_exe` in `tools/dosbox_launch.json` to your real EXE, e.g.:
 
 ```json
-"dosbox_exe": "D:/bin/D-Fend/dosbox-x/dosbox-x.exe"
+"dosbox_exe": "C:/path/to/dosbox-x.exe"
 ```
